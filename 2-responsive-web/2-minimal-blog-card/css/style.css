@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* COLORS */
+    --tag-text-color: #7C19EE;
+    --tag-bg-color: #F2EAFD;
+    --main-bg-color: #FAFAF9;
+    --card-bg-color: #FFFFFF;
+    --heading-color: #20293A;
+    --text-color: #394150;
+    --line-color: #E5EAF0;
+
+    /* FONT SIZE */
+    --title-font-size: 1.8rem;
+    --body-font-size: 1.4rem;
+    --small-font-size: 1.2rem;
+    --tag-font-size: 1rem;
+
+    /* BOX SHADOW*/
+    --card-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: "Sora", sans-serif;
+    height: 100vh;
+    color: var(--text-color);
+    background-color: var(--main-bg-color);
+}
+
+/* UTILITY CLASS */
+.mb-small {
+    margin-bottom: 0.6rem;
+}
+
+.mb-medium {
+    margin-bottom: 1.6rem;
+}
+
+.mb-large {
+    margin-bottom: 2rem;
+}
+
+.author-info {
+    font-size: 1.4rem;
+    margin-top: 1.6rem;
+    text-align: center;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 16.4rem;
+    padding-bottom: 3rem;
+}
+
+.card {
+    background-color: var(--card-bg-color);
+    margin-left: auto;
+    margin-right: auto;
+    width: 36.8rem;
+    border-radius: 1rem;
+    box-shadow: var(--card-shadow);
+}
+
+.card__img {
+    height: 15.2rem;
+    width: 33.6rem;
+    border-radius: 1rem;
+    margin: 1.6rem 1.6rem 1.6rem 1.6rem;
+}
+
+.tag {
+    display: inline-block;
+    margin-left: 1.6rem;
+    font-weight: 600;
+    background-color: var(--tag-bg-color);
+    color: var(--tag-text-color);
+    padding: 0.6rem 1.6rem;
+    border-radius: 10rem;
+    font-size: var(--tag-font-size);
+}
+
+.card__heading {
+    font-size: var(--title-font-size);
+    font-weight: 600;
+    margin-left: 1.6rem;
+}
+
+.card__text {
+    color: var(--text-color);
+    font-weight: 200;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+
+.divide-content {
+    border: none;
+    border-top: 1px solid var(--line-color);
+}
+
+.card__author {
+    font-size: 1.2rem;
+    padding: 0 1.6rem 1.6rem 1.6rem;
+}

@@ -1,56 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
+            href="resources/favicon.ico"
+            rel="icon"
+            sizes="96x96"
+            type="image/x-icon"
     />
+    <link href="css/style.css" rel="stylesheet">
 
     <title>devChallenges.io | Minimal Blog Card</title>
+</head>
+<body>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+<div class="container">
+    <figure class="card">
+        <img src="./resources/Cactus.jpg" alt="Cactus plant" class="card__img">
+        <div class="tag mb-medium">Design</div>
+        <h1 class="card__heading mb-small">Embracing Minimalism</h1>
+        <p class="card__text mb-large">From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+        <hr class="divide-content mb-large">
+        <p class="card__author">Annie Spratt</p>
+    </figure>
+</div>
 
-      body {
-        height: 100vh;
-      }
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Design
-
-  Embracing Minimalism
-
-  From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.
-
-  Annie Spratt -->
-
+<footer>
     <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        Coded by <a href="https://github.com/AnjelToppo">Anjel Toppo</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
         >devChallenges.io</a
-      >.
+        >.
     </div>
-  </body>
+</footer>
+</body>
 </html>
