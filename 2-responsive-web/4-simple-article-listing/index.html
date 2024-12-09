@@ -1,68 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
     <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
+            rel="icon"
+            href="resources/favicon.ico"
+            type="image/x-icon"
+            sizes="96x96"
     />
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Simple Article Listing | devChallenges.io</title>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+</head>
+<body>
 
-      body {
-        height: 100vh;
-      }
+<div class="container">
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+    <header>
+        <h1 class="heading-1">We release interesting articles about technology</h1>
+    </header>
 
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- 
+    <img src="resources/Seperator.svg" alt="separator image" class="separator">
 
-      We release interesting articles about technology
-    
-      Unlocking the Power of Cloud Computing
-    
-      A Guide to Scalable Solutions
-    
-      November 12, 2024
-    
-      The Future of AI
-    
-      How Machine Learning is Revolutionizing Industries
-    
-      The Impact of 5G on Business
-    
-      How Faster Networks are Transforming the Way We Work
-    
-    -->
+    <div class="article-container">
 
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
+        <article class="article">
+            <img src="resources/photo_1.png" alt="" class="article__image">
+            <div class="article__content">
+                <h2 class="heading-2">Unlocking the Power of Cloud Computing: A Guide to Scalable Solutions</h2>
+                <p class="article__date">November 12, 2024</p>
+            </div>
+        </article>
+
+        <article class="article">
+            <img src="resources/photo_3.png" alt="" class="article__image">
+            <div class="article__content">
+                <h2 class="heading-2">The Future of AI: How Machine Learning is Revolutionizing Industries</h2>
+                <p class="article__date">November 12, 2024</p>
+            </div>
+        </article>
+
+        <article class="article">
+            <img src="resources/photo_2.png" alt="" class="article__image">
+            <div class="article__content">
+                <h2 class="heading-2">The Impact of 5G on Business: How Faster Networks are Transforming the Way We Work</h2>
+                <p class="article__date">November 12, 2024</p>
+            </div>
+        </article>
+
     </div>
-  </body>
+</div>
+<footer>
+    <div class="author-info">
+        Coded by <a href="https://github.com/AnjelToppo">Anjel Toppo</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+        >.
+    </div>
+</footer>
+</body>
 </html>
