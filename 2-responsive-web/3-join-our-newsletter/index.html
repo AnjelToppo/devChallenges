@@ -4,58 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <link
       rel="icon"
       href="resources/favicon.ico"
       type="image/x-icon"
       sizes="96x96"
     />
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Join Our Newsletter | devChallenges.io</title>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
   </head>
   <body>
-    <!-- 
-    Join our newsletter
- 
-    Keep up with our latest collections, exclusive deals, and special offers! We introduce a new collection every week, so stay tuned to snag the hottest items just for you.
- 
-    Enter your email address
- 
-    Subscribe now
- 
-    Your email is 100% confidential and won’t send you any spam.
+  <section class="container">
+    <div class="newsletter">
+      <img src="resources/logo.svg" alt="logo" class="mb-md">
+      <h1 class="newsletter__heading heading-text mb-md">Join our newsletter</h1>
+      <p class="newsletter__subheading subheading-text mb-lg">Keep up with our latest collections, exclusive deals, and special offers! <br> We introduce a new collection every week, so stay tuned to snag the hottest items just for you.</p>
+      <div class="subscribe-box">
+        <input type="email" placeholder="Enter your email address" class="subscribe-box__input mb-sm" />
+        <button class="subscribe-box__button button-text mb-sm">Subscribe now</button>
+        <p class="subscribe-box__helper helper-text">Your email is 100% confidential and won’t send you any spam.</p>
+      </div>
+    </div>
+  </section>
 
-    -->
-
+  <footer>
     <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
+      Coded by <a href="https://github.com/AnjelToppo">Anjel Toppo</a> | Challenge by
       <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
+      >devChallenges.io</a
       >.
     </div>
+  </footer>
+
   </body>
 </html>
