@@ -1,67 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
+            rel="icon"
+            href="resources/favicon.ico"
+            type="image/x-icon"
+            sizes="96x96"
     />
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Testimonial Page | devChallenges.io</title>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+</head>
+<body>
 
-      body {
-        height: 100vh;
-      }
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+    <div class="testimonial">
+        <div class="testimonial__content">
+            <div class="star-container">
+                <span class="gradient-star">⭐️</span>
+            </div>
+            <h1 class="heading-1">Reviewers</h1>
+            <p class="testimonial__content--text">
+                Reviewers is where people can access guidelines, checklists, and other tools to assist them in reviewing
+                papers or manuscripts. It provides a structured approach to ensure that the review process is thorough,
+                efficient, and consistent.
+            </p>
+            <ul class="list">
+                <li class="list__item">
+                    <img src="resources/Done_ring_round_fill.svg" alt="Done icon"
+                         class="list__item--image">
+                    <p class="list__item--text">Checklist to Review an Academic Paper</p></li>
+                <li class="list__item"><img src="resources/Done_ring_round_fill.svg" alt="Done icon"
+                                            class="list__item--image">
+                    <p class="list__item--text">Peer Review Checklist</p></li>
+                <li class="list__item"><img src="resources/Done_ring_round_fill.svg" alt="Done icon"
+                                            class="list__item--image">
+                    <p class="list__item--text">Checklist for Editors, Reviewers, and Authors of SPIE Journals</p></li>
+            </ul>
+        </div>
+        <div class="testimonial__reviews">
+            <div class="review review-1">
+                <!--            <div class="review__heading">-->
+                <img src="resources/google-testimonial.svg" alt="google company's logo" class="review__company">
+                <div class="review__star">
+                    <img src="resources/Star_fill.svg" alt="rating star icon">
+                    <img src="resources/Star_fill.svg" alt="rating star icon">
+                    <img src="resources/Star_fill.svg" alt="rating star icon">
+                    <img src="resources/Star_fill.svg" alt="rating star icon">
+                    <img src="resources/Star_fill_gray.svg" alt="rating star icon">
+                </div>
+                <!--            </div>-->
+                <h3 class="review__author">
+                    Samantha Lee
+                </h3>
+                <p class="review__text">
+                    The checklist ensures that the review process is thorough
+                </p>
+            </div>
 
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- 
-  ⭐️
-
-  Reviewers is where people can access guidelines, checklists, and other tools to assist them in reviewing papers or manuscripts. It provides a structured approach to ensure that the review process is thorough, efficient, and consistent.
-  
-  Checklist to Review an Academic Paper
-  
-  Peer Review Checklist
-  
-  Checklist for Editors, Reviewers, and Authors of SPIE Journals
-  
-  Samantha Lee
-  
-  The checklist ensures that the review process is thorough
-  
-  Rachel Patel
-  
-  I highly recommend the Writecream Business Description -->
-
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
+            <div class="review review-2">
+                <!--            <div class="review__heading">-->
+                <img src="resources/meta-testimonial.svg" alt="meta company's logo" class="review__company">
+                <div class="review__star">
+                    <img src="resources/Star_fill.svg" alt="rating star icon">
+                    <img src="resources/Star_fill.svg" alt="rating star icon">
+                    <img src="resources/Star_fill.svg" alt="rating star icon">
+                    <img src="resources/Star_fill.svg" alt="rating star icon">
+                    <img src="resources/Star_fill.svg" alt="rating star icon">
+                </div>
+                <!--            </div>-->
+                <h3 class="review__author">
+                    Rachel Patel
+                </h3>
+                <p class="review__text">
+                    I highly recommend the <span class="fishy-text">Writecream Business Description</span>
+                </p>
+            </div>
+        </div>
     </div>
-  </body>
+
+
+
+<footer>
+    <div class="author-info">
+        Coded by <a href="https://github.com/AnjelToppo">Anjel Toppo</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+        >.
+    </div>
+</footer>
+</body>
 </html>
