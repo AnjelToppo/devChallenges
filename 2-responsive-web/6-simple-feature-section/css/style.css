@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg-color: #121826;
+    --heading-1-text-color: #E5E7EB;
+    --subheading-text-color: #9DA3AE;
+    --card-bg-color: #212936;
+    --icon-1-bg-color: #FCEED8;
+    --icon-2-bg-color: #DEE9FC;
+    --icon-3-bg-color: #FBE5E6;
+    --card-text-color: #D2D5DA;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+}
+
+/* UTILITY CLASS */
+/* ////////////////////*/
+.mb-sm {
+    margin-bottom: 1.6rem;
+}
+
+.mb-md {
+    margin-bottom: 4.8rem;
+}
+
+/* ////////////////////*/
+
+.author-info {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1.6rem;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
+
+
+.header {
+    max-width: 40rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--heading-1-text-color);
+}
+
+.subheading {
+    font-size: 1.6rem;
+    color: var(--subheading-text-color);
+}
+
+.feature {
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+
+    background-image: url("../resources/Background_image.svg");
+    background-size: cover;
+    background-color: var(--main-bg-color);
+}
+
+.feature-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: center;
+    background-color: var(--card-bg-color);
+    border-radius: 1.5rem;
+    padding: 2.4rem;
+    min-height: 45rem;
+    flex: 0 0 31rem;
+}
+
+.icon-container {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container span {
+    font-size: 2.1rem;
+}
+
+.icon-1 {
+    background-color: var(--icon-1-bg-color);
+}
+.icon-2 {
+    background-color: var(--icon-2-bg-color);
+}
+
+.icon-3 {
+    background-color: var(--icon-3-bg-color);
+}
+
+.heading-2 {
+    color: var(--card-text-color);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.card__text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--card-text-color);
+}
+
+.card__image {
+    border-radius: 1.5rem;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 40em) {
+    .header {
+        max-width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 25.75em) {
+    .feature {
+        padding: 4rem 2rem;
+    }
+
+}

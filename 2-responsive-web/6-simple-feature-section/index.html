@@ -1,73 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
+            rel="icon"
+            href="resources/favicon.ico"
+            type="image/x-icon"
+            sizes="96x96"
     />
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Simple Feature Section | devChallenges.io</title>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+</head>
+<body>
+<section class="feature">
 
-      body {
-        height: 100vh;
-      }
+        <header class="header">
+            <h1 class="heading-1 mb-sm">Quality feedbacks for your SaaS products</h1>
+            <p class="subheading mb-md">The blocks & components you need</p>
+        </header>
+        <main class="feature-card">
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+            <figure class="card feature-card-1">
+                <div class="icon-container icon-1">
+                    <span class="icon">✋</span>
+                </div>
+                <h2 class="heading-2">Collect Feedback at Multiple Touchpoints</h2>
+                <p class="card__text">Provide a comprehensive understanding of the customer experience.</p>
+                <img src="resources/photo_2.png" srcset="resources/photo_2.png 267w, resources/photo_2@2x.png 534w"
+                     sizes="(max-width: 534px) 267px, 534px" alt="People discussing feedback" class="card__image">
+            </figure>
 
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- 
-     ✋
-    
-     🥅
-    
-     💬
-    
-     Quality feedbacks for your SaaS products
-    
-     The blocks & components you need
-    
-     Collect Feedback at Multiple Touchpoints
-    
-     Provide a comprehensive understanding of the customer experience.
-    
-     Ask Targeted and Specific Questions
-    
-     Avoid vague or open-ended questions that may not yield actionable insights.
-    
-     Prioritize and Respond to Feedback
-    
-     Communicate the changes or improvements you've made in response to their feedback.
-    
-    -->
+            <figure class="card feature-card-2">
+                <div class="icon-container icon-2">
+                    <span class="icon">🥅</span>
+                </div>
+                <h2 class="heading-2">Ask Targeted and Specific Questions</h2>
+                <p class="card__text">Avoid vague or open-ended questions that may not yield actionable insights.</p>
+                <img src="resources/photo_1.png" srcset="resources/photo_1.png 267w, resources/photo_1@2x.png 534w"
+                     sizes="(max-width: 534px) 267px, 534px" alt="Person querying their doubt" class="card__image">
+            </figure>
 
+            <figure class="card feature-card-3">
+                <div class="icon-container icon-3">
+                    <span class="icon">💬</span>
+                </div>
+                <h2 class="heading-2">Prioritize and Respond to Feedback</h2>
+                <p class="card__text">Communicate the changes or improvements you've made in response to their
+                    feedback.</p>
+                <img src="resources/photo_3.png" srcset="resources/photo_3.png 267w, resources/photo_3@2x.png 534w"
+                     sizes="(max-width: 534px) 267px, 534px" alt="Person responding to feedback" class="card__image">
+            </figure>
+        </main>
+
+</section>
+<footer>
     <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        Coded by <a href="https://github.com/AnjelToppo">Anjel Toppo</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
         >devChallenges.io</a
-      >.
+        >.
     </div>
-  </body>
+</footer>
+</body>
 </html>
