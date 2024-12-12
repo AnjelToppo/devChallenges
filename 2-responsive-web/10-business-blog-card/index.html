@@ -1,58 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+          rel="stylesheet">
     <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
+            rel="icon"
+            href="resources/favicon.ico"
+            type="image/x-icon"
+            sizes="96x96"
     />
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Business Blog Card | devChallenges.io</title>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+</head>
+<body>
 
-      body {
-        height: 100vh;
-      }
+<section class="business-card">
+    <div class="card">
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+        <div class="card__hero">
+            <img src="resources/hero-image.jpg" srcset="resources/hero-image.jpg 209w, resources/hero-image-1.jpg 418w"
+                 sizes="(max-width: 418px) 209px, 418px" alt="Two person enjoying coffee" class="card__image">
+            <img src="resources/white-overlay.svg" alt="white-overlay pattern" class="card__overlay">
+        </div>
 
-      .author-info a {
-        color: rgb(55, 65, 81);
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Perfect solution for small business
-  
-    Small businesses need to generate leads to grow. You can use tools like Ringy.
-  
-    Amy Burgess
-  
-    Customer Manger, Solution Oy
-   -->
+        <div class="card__main mb-md">
+            <h1 class="heading-1 mb-sm">Perfect solution for small business</h1>
+            <p class="card__text ">Small businesses need to generate leads to grow. You can use tools like Ringy.</p>
+        </div>
 
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
+        <hr class="line-break mb-md">
+
+        <div class="card__author">
+            <div class="card__author-image-container">
+                <img src="resources/avatar-image-business-card-1.png" srcset="resources/avatar-image-business-card-1.png 58w, resources/avatar-image-business-card.png 116w"
+                     sizes="(max-width: 412px) 58px, 412px" alt="User's avatar image"  class="card__author-image">
+            </div>
+            <div class="card__author-detail">
+                <h2 class="heading-2">Amy Burgess</h2>
+                <p class="author-text">Customer Manger, Solution Oy</p>
+            </div>
+        </div>
+
     </div>
-  </body>
+</section>
+
+<footer>
+    <div class="author-info">
+        Coded by <a href="https://github.com/AnjelToppo">Anjel Toppo</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+        >.
+    </div>
+</footer>
+</body>
 </html>
