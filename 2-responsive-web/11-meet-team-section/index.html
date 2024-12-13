@@ -4,77 +4,94 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link
       rel="icon"
       href="resources/favicon.ico"
       type="image/x-icon"
       sizes="96x96"
     />
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Meet the Team Section | devChallenges.io</title>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
   </head>
   <body>
-    <!-- 
+    <section class="meet-the-team">
+      <div class="team">
+        
+        <header class="team__header">
+          <p class="highlight-text mb-sm">Our team</p>
+          <h1 class="heading-1 mb-sm">Meet the brain</h1>
+          <p class="header-text">We are proud to have them as part of our community and look forward to continuing to push the boundaries of what's possible in the world of digital art.</p>
+        </header>
+        
+        <div class="team__member team__member--1">
+          <img src="resources/Gradient.svg" alt="gradient svg" class="gradient">
+          <img src="resources/person_1@2x.png" srcset="resources/person_1@2x.png 284w, resources/person_1.png 426w"
+               sizes="(max-width: 426px) 284px, 426px" alt="Member's image" class="member-photo">
+          <div class="member-details">
+            <h2 class="heading-2">Liam Novak</h2>
+            <p class="member-job-title">Software Engineer</p>
+          </div>
+        </div>
+        
+        <div class="team__member team__member--2">
+          <img src="resources/Gradient.svg" alt="gradient svg" class="gradient">
+          <img src="resources/person_2@2x.png" srcset="resources/person_2@2x.png 284w, resources/person_2.png 426w"
+               sizes="(max-width: 426px) 284px, 426px" alt="Member's image" class="member-photo">
+          <div class="member-details">
+            <h2 class="heading-2">Sophia Moretti</h2>
+            <p class="member-job-title">Business Development Manager</p>
+          </div>
+        </div>
+        
+        <div class="team__member team__member--3">
+          <img src="resources/Gradient.svg" alt="gradient svg" class="gradient">
+          <img src="resources/person_3@2x.png" srcset="resources/person_3@2x.png 284w, resources/person_3.png 426w"
+               sizes="(max-width: 426px) 284px, 426px" alt="Member's image" class="member-photo">
+          <div class="member-details">
+            <h2 class="heading-2">Ethan Rossi</h2>
+            <p class="member-job-title">Business Development Manager</p>
+          </div>
+        </div>
+        
+        <div class="team__member team__member--4">
+          <img src="resources/Gradient.svg" alt="gradient svg" class="gradient">
+          <img src="resources/person_4@2x.png" srcset="resources/person_4@2x.png 284w, resources/person_4.png 426w"
+               sizes="(max-width: 426px) 284px, 426px" alt="Member's image" class="member-photo">
+          <div class="member-details">
+            <h2 class="heading-2">Isabella Ricci</h2>
+            <p class="member-job-title">UX Designer</p>
+          </div>
+        </div>
+        
+        <div class="team__member team__member--5">
+          <img src="resources/Gradient.svg" alt="gradient svg" class="gradient">
+          <img src="resources/person_5@2x.png" srcset="resources/person_5@2x.png 284w, resources/person_5.png 426w"
+               sizes="(max-width: 426px) 284px, 426px" alt="Member's image" class="member-photo">
+          <div class="member-details">
+            <h2 class="heading-2">Noah Conti</h2>
+            <p class="member-job-title">Content Creator</p>
+          </div>
+        </div>
 
-    Our team
-    
-    Meet the brain
-    
-    We are proud to have them as part of our community and look forward to continuing to push the boundaries of what's possible in the world of digital art.
-    
-    Liam Novak
-    
-    Software Engineer
-    
-    Sophia Moretti
-    
-    Business Development Manager
-    
-    See all members
-    
-    Ethan Rossi
-    
-    Business Development Manager
-    
-    Isabella Ricci
-    
-    UX Designer
-    
-    Noah Conti
-    
-    Content Creator
+        <p class="link">
+          <a href="#" class="anchor">See all members <img src="resources/arrow%20up%20right.svg" alt="arrow up icon" class="arrow-icon"></a>
+        </p>
 
-     -->
+      </div>
+    </section>
 
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+    <footer>
+      <div class="author-info">
+        Coded by <a href="https://github.com/AnjelToppo">Anjel Toppo</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
         >devChallenges.io</a
-      >.
-    </div>
+        >.
+      </div>
+    </footer>
   </body>
 </html>
