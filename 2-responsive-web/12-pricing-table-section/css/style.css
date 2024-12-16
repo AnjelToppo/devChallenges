@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-bg-color: #F8FAFC;
+    --feature-bg-color: #F8FAFC;
+    --subheading-text-color: #4D5562;
+    --line-color: #E5E7EB;
+    --black-color: #121826;
+    --plan-name-color: #263FA9;
+    --plan-duration-color: #4D5562;
+    --white-color: #FFFFFF;
+    --popular-btn-bg-color: #7C4F1E;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /*height: 100vh;*/
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 1.6rem;
+    color: var(--black-color);
+}
+
+
+/* UTILITY CLASS */
+/* /////////////////// */
+.heading-1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.sub-heading {
+    color: var(--subheading-text-color);
+}
+
+.mb-sm {
+    margin-bottom: 1.2rem;
+}
+/* /////////////////// */
+
+.author-info {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 7rem;
+    padding: 1.6rem;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
+
+.pt__header {
+    padding: 5.4rem 0;
+    background-color: var(--header-bg-color);
+    background-image: url("../resources/bg-pattern.png");
+}
+
+.pt__content {
+    max-width: 44rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.line-break{
+    border: 1px solid var(--line-color);
+    margin-bottom: 6rem;
+}
+
+table {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 82.5%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+thead tr:first-child th {
+    padding-top: 2.4rem;
+    padding-bottom: 0.8rem;
+}
+
+thead tr:nth-child(2) th {
+    padding-bottom: 0.6rem;
+}
+
+thead tr:last-child th {
+    padding-bottom: 2.6rem;
+}
+
+thead tr:first-child {
+    color: var(--plan-name-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+thead tr:nth-child(2) {
+    font-size: 6.4rem;
+    color: var(--black-color);
+    font-weight: 600;
+}
+
+thead tr:nth-child(2) th:nth-child(3), thead tr:nth-child(3) th:nth-child(3) {
+    color: var(--white-color);
+}
+
+thead tr:last-child th {
+    color: var(--plan-duration-color);
+    font-weight: 400;
+}
+
+tbody tr td:nth-child(4) {
+    color: var(--white-color);
+}
+
+.popular {
+    background-color: var(--black-color);
+}
+
+thead tr:first-child th:nth-child(4) {
+    border-top-left-radius: 1.6rem;
+    border-top-right-radius: 1.6rem;
+}
+
+tbody tr:last-child td:nth-child(4) {
+    background-color: var(--popular-btn-bg-color);
+    border-bottom-left-radius: 1.6rem;
+    border-bottom-right-radius: 1.6rem;
+}
+
+thead tr:first-child th:nth-child(4) span {
+    display: inline-block;
+    padding: 0.2rem 1.2rem;
+    color: var(--white-color);
+    background-color: var(--plan-name-color);
+    border-radius: 100px;
+}
+
+tbody tr:not(:last-child) th[scope="row"] {
+    text-align: left;
+    font-weight: 600;
+    background-color: var(--feature-bg-color);
+    padding: 1.6rem;
+    max-width: 9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+tbody tr:first-child th[scope="row"] {
+    border-top-left-radius: 1.6rem;
+}
+
+tbody tr:not(:last-child) th, tbody tr:not(:last-child) td{
+    border-bottom: 1px solid var(--line-color);
+}
+
+tbody tr:not(:last-child) td:nth-child(4){
+    border-bottom: 1px solid #181E2C; // Outside source color
+}
+
+tbody tr:nth-last-child(2) th{
+    border-bottom-left-radius: 1.6rem;
+}
+
+button {
+    display: grid;
+    grid-template-columns: max-content min-content;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #263FA9;
+    font-weight: 600;
+    border: none;
+    font-size: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    padding: 2.4rem 0;
+}
+
+tbody tr:last-child td:nth-child(4) button {
+    color: #FFFFFF;
+}
+
+img {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+@media only screen and (max-width: 70em) {
+    thead tr:first-child th:nth-child(2) {
+        display: none;
+    }
+    thead tr th:first-child {
+        display: none;
+    }
+
+    tbody tr td:nth-child(2) {
+        display: none;
+    }
+
+    .team {
+        background-color: var(--black-color);
+    }
+
+    .popular {
+        background-color: #FFFFFF;
+    }
+}
+
+@media only screen and (max-width: 48em) {
+
+    thead tr:first-child th:nth-child(3) {
+        background-color: pink;
+        display: none;
+    }
+    thead tr th:nth-child(2) {
+        background-color: pink;
+        display: none;
+    }
+
+    tbody tr td:nth-child(3) {
+        background-color: pink;
+        display: none;
+
+    }
+
+    .free {
+        background-color: var(--black-color);
+    }
+
+    .team {
+        background-color: #FFFFFF;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    html {
+        font-size: 26%;
+    }
+
+}

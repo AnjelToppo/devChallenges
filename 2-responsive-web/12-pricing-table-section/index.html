@@ -1,98 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
     <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
+            rel="icon"
+            href="resources/favicon.ico"
+            type="image/x-icon"
+            sizes="96x96"
     />
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Pricing Table | devChallenges.io</title>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
 
-      body {
-        height: 100vh;
-      }
+</head>
+<body>
+<section class="pt">
+    <header class="pt__header">
+        <div class="pt__content">
+            <h1 class="heading-1 mb-sm">Pricing & Plans</h1>
+            <p class="sub-heading">Discover the plan that unlocks the transformative power of digital art and join our
+                vibrant community today.</p>
+        </div>
+    </header>
+    <hr class="line-break">
+    <main class="pt__main">
+        <table class="plan">
+                <colgroup class="feature" id="feature">
+                    <col/>
+                </colgroup>
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+                <colgroup class="free" id="free">
+                    <col/>
+                </colgroup>
 
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- 
-      Pricing & Plans
-      
-      Discover the plan that unlocks the transformative power of digital art and join our vibrant community today.
-      
-      Website number
-      
-      Server storage
-      
-      Database
-      
-      Unmetered Bandwidth
-      
-      SSD Disk
-      
-      VCPUS Fontworld
-      
-      Worldpress install
-      
-      Server speed
-      
-      Free
-      
-      $0
-      
-      Per month
-      
-      100 GB
-      
-      Get Started
-      
-      Team
-      
-      $59
-      
-      500 GB
-      
-      Popular
-      
-      $99
-      
-      1 TB
-      
-      Unlimited
-      
-      Enterprise
-      
-      $299
-  -->
+                <colgroup class="team" id="team">
+                    <col/>
+                </colgroup>
 
+                <colgroup class="popular" id="popular">
+                    <col/>
+                </colgroup>
+
+                <colgroup class="enterprise" id="enterprise">
+                    <col/>
+                </colgroup>
+
+
+
+            <thead>
+                        <tr>
+                            <td rowspan="3"></td>
+                            <th scope="col">Free</th>
+                            <th scope="col">Team</th>
+                            <th scope="col"><span class="popular-tag">Popular</span></th>
+                            <th scope="col">Enterprise</th>
+                        </tr>
+                        <tr>
+                            <th scope="col">$0</th>
+                            <th scope="col">$59</th>
+                            <th scope="col">$99</th>
+                            <th scope="col">$299</th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Per month</th>
+                            <th scope="col">Per month</th>
+                            <th scope="col">Per month</th>
+                            <th scope="col">Per month</th>
+                        </tr>
+
+            </thead>
+
+            <tbody>
+            <tr>
+                <th scope="row">Website number</th>
+                <td>01</td>
+                <td>10</td>
+                <td>50</td>
+                <td>Unlimited</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Server storage</th>
+                <td>100 GB</td>
+                <td>500 GB</td>
+                <td>1 TB</td>
+                <td>Unlimited</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Database</th>
+                <td>0</td>
+                <td>15</td>
+                <td>Unlimited</td>
+                <td>Unlimited</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Unmetered Bandwidth</th>
+                <td>-</td>
+                <td><img src="resources/check-1.svg" alt="checkmark icon"></td>
+                <td><img src="resources/check.svg" alt="checkmark icon"></td>
+                <td><img src="resources/check-1.svg" alt="checkmark icon"></td>
+            </tr>
+
+            <tr>
+                <th scope="row">SSD Disk</th>
+                <td>-</td>
+                <td>-</td>
+                <td><img src="resources/check.svg" alt="checkmark icon"></td>
+                <td><img src="resources/check-1.svg" alt="checkmark icon"></td>
+            </tr>
+
+            <tr>
+                <th scope="row">VCPUS Fontworld</th>
+                <td>-</td>
+                <td>-</td>
+                <td><img src="resources/check.svg" alt="checkmark icon"></td>
+                <td><img src="resources/check-1.svg" alt="checkmark icon"></td>
+            </tr>
+
+            <tr>
+                <th scope="row">Worldpress install</th>
+                <td>-</td>
+                <td>-</td>
+                <td><img src="resources/check.svg" alt="checkmark icon"></td>
+                <td><img src="resources/check-1.svg" alt="checkmark icon"></td>
+            </tr>
+
+            <tr>
+
+                <th scope="row">Server speed</th>
+                <td>-</td>
+                <td>-</td>
+                <td><img src="resources/check.svg" alt="checkmark icon"></td>
+                <td><img src="resources/check-1.svg" alt="checkmark icon"></td>
+            </tr>
+
+            <tr>
+                <th scope="row"></th>
+                <td>
+                    <button>Get started <img src="resources/down%20arrow-1.svg" alt="arrow"></button>
+                </td>
+                <td>
+                    <button>Get started <img src="resources/down%20arrow-1.svg" alt="arrow"></button>
+                </td>
+                <td>
+                    <button>Get started <img src="resources/down%20arrow.svg" alt="arrow"></button>
+                </td>
+                <td>
+                    <button>Get started <img src="resources/down%20arrow-1.svg" alt="arrow"></button>
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+    </main>
+</section>
+
+<footer>
     <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        Coded by <a href="https://github.com/AnjelToppo">Anjel Toppo</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
         >devChallenges.io</a
-      >.
+        >.
     </div>
-  </body>
+</footer>
+</body>
 </html>
