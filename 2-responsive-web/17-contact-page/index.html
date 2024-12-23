@@ -1,76 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
     <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
+            rel="icon"
+            href="resources/favicon.ico"
+            type="image/x-icon"
+            sizes="96x96"
     />
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Contact Page | devChallenges.io</title>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+</head>
+<body>
+<section class="contact-page">
+    <div class="container">
+        <header class="cp-header mb-2"><img src="resources/Logo.svg" alt="company's logo"></header>
+        <main class="cp-main flex">
+            <h1 class="heading-1 mb-3">Interested in our business pricing?</h1>
+            <p class="sub-heading mb-1">Fill out the form to view details and we’ll contact you as soon as possible.</p>
+            <form action="#" class="cp-form grid">
+                <div class="flex lbl-ipt-container cp-form__name">
+                    <label for="name" class="cp-form__label">Name</label>
+                    <input name="name" id="name" type="text" class="cp-form__input" placeholder="Ethan Johnson">
+                </div>
 
-      body {
-        height: 100vh;
-      }
+                <div class="flex lbl-ipt-container cp-form__email">
+                    <label for="email" class="cp-form__label">Company Email</label>
+                    <input name="email" id="email" type="email" class="cp-form__input" placeholder="ethan@johnson.com">
+                </div>
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+                <div class="flex lbl-ipt-container cp-form__size">
+                    <label for="company-size" class="cp-form__label">Company Size</label>
+                    <select name="company-size" id="company-size" class="cp-form__input">
+                        <option value="50-100">50-100 employees</option>
+                        <option value="100-200">100-200 employees</option>
+                    </select>
+                </div>
 
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- 
-  Interested in our business pricing?
-   
-  Fill out the form to view details and we’ll contact you as soon as possible.
-  
-  Name
+                <div class="flex lbl-ipt-container cp-form__subject">
+                    <label for="subject" class="cp-form__label">Subject</label>
+                    <select name="subject" id="subject" class="cp-form__input">
+                        <option value="Building Landing pages">Building Landing pages</option>
+                        <option value="Building 404 Error Pages">Building 404 Error Pages</option>
+                    </select>
+                </div>
 
-  Ethan Johnson
+                <div class="flex lbl-ipt-container cp-form__message">
+                    <label for="message" class="cp-form__label">Message</label>
+                  <textarea name="message" id="message" rows="8" placeholder="50-100 employees" class="cp-form__input"></textarea>
+                </div>
 
-  Company Email
-  
-  ethan@johnson.com
-
-  Company Size
-
-  50-100 employees
-  
-  Subject
-
-  Building Landing pages
-
-  Message
-
-  50-100 employees
-
-  Contact Sales
-  -->
-
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
+              <button class="cp-form__button">Contact Sales</button>
+            </form>
+        </main>
     </div>
-  </body>
+</section>
+
+<footer>
+    <div class="author-info">
+        Coded by <a href="https://github.com/AnjelToppo">Anjel Toppo</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+        >.
+    </div>
+</footer>
+</body>
 </html>
