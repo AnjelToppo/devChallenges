@@ -1,110 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
     <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
+            rel="icon"
+            href="resources/favicon.ico"
+            type="image/x-icon"
+            sizes="96x96"
     />
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Device Shop Checkout | devChallenges.io</title>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+</head>
+<body>
+<section class="checkout">
+    <header class="header">
+        <div class="title-container">
+            <h1 class="heading-1">Checkout</h1>
+            <span class="qty-detail flex fw-2">3 items</span>
+        </div>
+    </header>
+    <main class="main">
+        <div class="checkout__summary flex">
 
-      body {
-        height: 100vh;
-      }
+            <div class="product product-1 grid">
+                <div class="product__img-container">
+                    <img src="resources/Gold.png" alt="iPhone 12 Pro product image" class="product__img">
+                </div>
+                <div class="product__detail-container flex">
+                    <div class="flex fr-justify-content">
+                        <p class="product__name fw-2">iPhone 12 Pro</p>
+                        <p class="product__price fw-2">$999.00</p>
+                    </div>
+                    <div class="flex fr-justify-content">
+                        <p class="product__color fw-3">Golden</p>
+                    </div>
+                    <div class="flex fr-justify-content">
+                        <p class="product__quantity fw-3">x 1</p>
+                        <button class="cancel-btn">&#x2715;</button>
+                    </div>
+                </div>
+            </div>
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+            <div class="product product-2 grid">
+                <div class="product__img-container">
+                    <img src="resources/Apple-watch.png" alt="Apple watch product image" class="product__img">
+                </div>
+                <div class="product__detail-container flex">
+                    <div class="flex fr-justify-content">
+                        <p class="product__name fw-2">Apple Watch</p>
+                        <p class="product__price fw-2">$399.00</p>
+                    </div>
+                    <div class="flex fr-justify-content">
+                        <p class="product__color fw-3">Blue</p>
+                    </div>
+                    <div class="flex fr-justify-content">
+                        <p class="product__quantity fw-3">x 1</p>
+                        <button class="cancel-btn">&#x2715;</button>
+                    </div>
+                </div>
+            </div>
 
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <!--     
-    Checkout
-    
-    3 items
-    
-    iPhone 12 Pro
-    
-    Golden
-    
-    $999.00
-    
-    x 1
-    
-    Apple Watch
-    
-    Blue
-    
-    $399.00
-    
-    iMac
-    
-    Green
-    
-    $1199.00
-    
-    Enter coupon code
-    
-    Apply Coupon
-    
-    Sub total
-    
-    $2597.00
-    
-    Tax
-    
-    $623.28
-    
-    Total
-    
-    $3220.28
-    
-    Contact Information
-    
-    First & Last name
-    
-    Enter first & last name
-    
-    Email Address
-    
-    Enter email address
-    
-    Country
-    
-    Finland
-    
-    Postal Code
-    
-    00270
-    
-    Continue
-     -->
+            <div class="product product-3 grid">
+                <div class="product__img-container">
+                    <img src="resources/iMac.png" alt="iMac product image" class="product__img">
+                </div>
+                <div class="product__detail-container flex">
+                    <div class="flex fr-justify-content">
+                        <p class="product__name fw-2">iMac</p>
+                        <p class="product__price fw-2">$1199.00</p>
+                    </div>
+                    <div class="flex fr-justify-content">
+                        <p class="product__color fw-3">Green</p>
+                    </div>
+                    <div class="flex fr-justify-content">
+                        <p class="product__quantity fw-3">x 1</p>
+                        <button class="cancel-btn">&#x2715;</button>
+                    </div>
+                </div>
+            </div>
 
+            <hr class="line-break">
+
+            <div class="coupon-box grid">
+                <input type="text" placeholder="Enter coupon code" class="coupon-code">
+                <button class="coupon-btn main-btn fw-2">Apply Coupon</button>
+            </div>
+
+            <div class="product-price flex">
+                <div class="sub-total flex fr-justify-content">
+                    <p class="sub-total__text fw-2">Sub total</p>
+                    <p class="sub-total__price fw-2">$2597.00</p>
+                </div>
+
+                <div class="tax flex fr-justify-content">
+                    <p class="tax__text fw-2">Tax</p>
+                    <p class="tax__price fw-2">$623.28</p>
+                </div>
+
+                <div class="total flex fr-justify-content">
+                    <p class="total__text fw-2">Total</p>
+                    <p class="total__price fw-2">$3220.28</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="checkout__contact">
+            <p class="heading-2 fw-2">Contact Information</p>
+            <form action="#" class="form flex">
+
+                <div class="flex lbl-ipt-container form__name">
+                    <label for="name" class="form__label fw-2">First & Last name</label>
+                    <input id="name" type="text" placeholder="Enter first & last name">
+                </div>
+
+                <div class="flex lbl-ipt-container form__email">
+                    <label for="email" class="form__label fw-2">Email Address</label>
+                    <input id="email" type="email" placeholder="Enter email address">
+                </div>
+
+                <div class="flex form__address">
+                    <div class="flex lbl-ipt-container form__address--country">
+                        <label for="country" class="form__label fw-2">Country</label>
+                        <select name="country" id="country" class="fw-3">
+                            <option value="Finland">Finland</option>
+                            <option value="Japan">Japan</option>
+                            <option value="India">India</option>
+                        </select>
+                    </div>
+
+                    <div class="flex lbl-ipt-container form__address--postal-code">
+                        <label for="postal-code" class="form__label">Postal Code</label>
+                        <input id="postal-code" type="text" placeholder="00270">
+                    </div>
+                </div>
+
+                <button class="main-btn fw-2">Continue</button>
+
+            </form>
+
+        </div>
+    </main>
+</section>
+
+<footer>
     <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        Coded by <a href="https://github.com/AnjelToppo">Anjel Toppo</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
         >devChallenges.io</a
-      >.
+        >.
     </div>
-  </body>
+</footer>
+</body>
 </html>
