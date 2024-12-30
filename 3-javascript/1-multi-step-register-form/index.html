@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
+    <link
+            rel="icon"
+            href="resources/favicon.ico"
+            type="image/x-icon"
+            sizes="96x96"
+    />
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Multi-step Register Form | devChallenges.io</title>
+
+</head>
+<body>
+<section class="form-section">
+    <img src="resources/blur-radial.svg" alt="" class="blur-radial blur-radial-1">
+    <img src="resources/blur-radial.svg" alt="" class="blur-radial blur-radial-2">
+    <div class="container">
+        <form action="#" novalidate class="register-form">
+
+            <div class="card register step-1 mb-4">
+                <h1 class="heading-1 fs-1 mb-1">Register</h1>
+
+                <div class="ipt-lbl-container flex f-fd-col gap-sm mb-2">
+                    <label for="name" class="label fs-4">Name</label>
+                    <input id="name" class="name input fs-4" type="text" placeholder="enter your name">
+                    <div class="name-message message flex gap-md">
+                        <img src="resources/exclamation-circle.svg" alt="warning-icon" class="message__invalid-icon">
+                        <p class="message__error fs-4">Please fill out this field.</p>
+                    </div>
+
+                </div>
+
+                <div class="ipt-lbl-container flex f-fd-col gap-sm mb-3">
+                    <label for="email" class="label fs-4">Email</label>
+                    <input id="email" class="email input fs-4" type="email" placeholder="example@gmail.com">
+                    <div class="email-message message flex gap-md">
+                        <img src="resources/exclamation-circle.svg" alt="warning-icon" class="message__invalid-icon">
+                        <p class="message__error fs-4">Please fill out this field.</p>
+                    </div>
+                </div>
+
+                <div class="flex f-jc-center">
+                    <button type="button" class="main-btn fs-4">Continue</button>
+                </div>
+
+            </div>
+
+            <div class="card topics step-2 mb-4">
+                <h1 class="heading-1 fs-1 mb-2">Which topics you are interested in?</h1>
+
+                <div class="topics-container flex f-fd-col gap-2 mb-3">
+                    <label class="topic-label fs-3">
+                        <input name="software-development" type="checkbox" value="Software Development">
+                        Software Development
+                    </label>
+                    <label class="topic-label fs-3">
+                        <input name="user-experience" type="checkbox" value="User Experience">
+                        User Experience
+                    </label>
+                    <label class="topic-label fs-3">
+                        <input name="graphic-design" type="checkbox" value="Graphic Design">
+                        Graphic Design
+                    </label>
+                    <div class="topic-message message flex gap-md">
+                        <img src="resources/exclamation-circle.svg" alt="warning-icon" class="message__invalid-icon">
+                        <p class="message__error fs-4">Please select at least one topic.</p>
+                    </div>
+                </div>
+
+                <div class="flex f-jc-center">
+                    <button type="button" class="main-btn fs-4">Continue</button>
+                </div>
+            </div>
+
+            <div class="card summary step-3 mb-4 fs-2">
+                <h1 class="heading-1 fs-1 mb-5">Summary</h1>
+
+                <div class="flex mb-6">
+                    <span class="summary__label">Name:&nbsp;</span>
+                    <span class="summary__name summary__answer"></span>
+                </div>
+                <div class="flex mb-2">
+                    <span class="summary__label">Email:&nbsp;</span>
+                    <span class="summary__email summary__answer"></span>
+                </div>
+                <div class="flex f-fd-col mb-2">
+                    <span class="summary__label mb-6">Topics:&nbsp;</span>
+                    <ul class="summary__topics summary__answer flex f-fd-col gap-sm ml-1">
+                    </ul>
+                </div>
+
+                <div class="flex f-jc-center">
+                    <button type="submit" class="main-btn fs-4">Confirm</button>
+                </div>
+
+            </div>
+
+            <div class="step-detail flex f-jc-center f-ai-center fs-3 gap-lg">
+                <p>Step <span class="step__current"></span>of 3</p>
+                <div class="step__circle-container flex gap-2">
+                    <div class="step__circle step__active"></div>
+                    <div class="step__circle"></div>
+                    <div class="step__circle"></div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+
+    <div class="done-message message flex f-jc-center">
+        <div class="message-box flex f-fd-col fs-3">
+            <progress max="3000" value="3000" class="progress"></progress>
+
+            <p class="message__success"><img src="resources/check-mark.svg" alt="success-icon"
+                                             class="message__valid-icon"> Your form is submitted successfully.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
