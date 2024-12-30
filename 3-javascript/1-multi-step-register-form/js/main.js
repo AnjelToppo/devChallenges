@@ -17,8 +17,8 @@ let summEmailEl = document.querySelector('.summary__email');
 let summTopicsEl = document.querySelector('.summary__topics');
 let stepDetailEl = document.querySelector('.step-detail');
 let formEl = document.querySelector('.register-form');
-let formSectionEl = document.querySelector('.form-section');
 let progressEl = document.querySelector('progress');
+let allCardEl = document.querySelectorAll('.card');
 
 let name, email;
 let selectedTopic = [];
@@ -100,22 +100,17 @@ allBtnEl[1].addEventListener('click', () => {
 
 })
 
-console.log(allBtnEl)
-
 formEl.addEventListener('submit', (evt) => {
     evt.preventDefault();
+    allBtnEl[2].disabled = true;
 
-    formEl.remove();
-    formSectionEl.append(msgEl[3]);
+    formEl.insertBefore(msgEl[3], allCardEl[2]);
 
     let time = 3000;
     setInterval(() => {
         if (time === 0) {
-            // window.location.reload(true);
-            location.replace(location.href);
             return
         }
-        console.log(time)
         time = time - 100;
         progressEl.value = time;
     }, 100);

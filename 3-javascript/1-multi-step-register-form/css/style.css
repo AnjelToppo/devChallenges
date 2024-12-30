@@ -175,6 +175,7 @@ body {
     overflow: hidden;
     border-radius: 1.2rem;
     position: relative;
+    max-width: max-content;
 }
 
 .progress {
