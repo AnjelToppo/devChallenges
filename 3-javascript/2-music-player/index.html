@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+            rel="icon"
+            href="resources/favicon.ico"
+            type="image/x-icon"
+            sizes="96x96"
+    />
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Music Player | devChallenges.io</title>
+</head>
+<body>
+<section class="music-player">
+    <div class="container">
+        <div class="song-card song">
+            <img src="resources/cover-1.png" alt="Lost in the City Lights song's cover image" class="song__image">
+            <div class="song__details">
+                <h1 class="song__title fs-1">Lost in the City Lights</h1>
+                <p class="song__artist fs-2">Cosmo Sheldrake</p>
+            </div>
+            <div class="song__time fs-3">
+                <p class="song-duration song__time--current"></p>
+                <p class="song-duration song__time--total"></p>
+            </div>
+            <progress max="" value="" class="song__progress"></progress>
+
+            <div class="button-container">
+                <button class="left-ps-btn btn"></button>
+                <button class="main-btn btn"></button>
+                <button class="right-ps-btn btn"></button>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<script src="js/main.js"></script>
+</body>
+</html>

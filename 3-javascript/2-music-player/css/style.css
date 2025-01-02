@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --pink-clr: #C93B76;
+    --blackish-clr: #212936;
+    --gray-1-clr: #4D5562;
+    --gray-2-clr: #121826a6;
+    --whitish-clr: #E5E7EB;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.fs-1 {
+    font-size: 1.6rem;
+}
+
+.fs-2 {
+    font-size: 1.2rem;
+}
+
+.fs-3 {
+    font-size: 1rem;
+}
+
+.music-player {
+    display: flex;
+    justify-content: center;
+    background-image: url("../resources/bg.jpg");
+    /*width: 100vw;*/
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding: 12.8rem 1.6rem 0 1.6rem;
+}
+
+.song-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray-2-clr);
+    max-width: 34.6rem;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.song__image {
+    width: 100%;
+    border-radius: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.song__details {
+    text-align: center;
+}
+
+.song__title {
+    margin-bottom: 0.4rem;
+    color: var(--whitish-clr);
+    font-weight: 600;
+}
+
+.song__artist {
+    color: var(--gray-1-clr);
+}
+
+.song__time {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+    color: var(--gray-1-clr);
+    font-weight: 600;
+}
+
+.song__progress {
+    -webkit-appearance: none;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 3.6rem;
+    height: 4px;
+}
+
+::-webkit-progress-bar {
+    background-color: var(--whitish-clr);
+    border-radius: 50rem;
+    overflow: hidden;
+}
+
+::-webkit-progress-value {
+    background-color: var(--pink-clr);
+    border-radius: 50rem;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.left-ps-btn, .right-ps-btn {
+    height: 3.2rem;
+    width: 3.2rem;
+}
+
+
+
+.left-ps-btn {
+    background-image: url("../resources/Stop_and_play_fill-1.svg");
+}
+
+.right-ps-btn {
+    background-image: url("../resources/Stop_and_play_fill.svg");
+}
+
+.main-btn {
+    height: 4.8rem;
+    width: 4.8rem;
+    background-color: var(--pink-clr);
+    background-image: url("../resources/Play_fill.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
