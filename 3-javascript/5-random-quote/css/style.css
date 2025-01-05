@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+:root {
+    --qs-bg-clr: #111729;
+    --rb-bg-clr: #20293A;
+    --text-clr: #E3E8EF;
+    --quote-clr: #97A3B6;
+    --tag-clr: #AEB0FF;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+li {
+    list-style: none;
+}
+
+
+.quote-section {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /*padding-bottom: 11.4rem;*/
+    background-color: var(--qs-bg-clr);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding-inline: 1.6rem;
+    /*padding-top: 9.4rem;*/
+}
+
+.message {
+    background: rgb(250, 42, 42);
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.error {
+    color: #fff;
+}
+
+
+.quote-box {
+    max-width: 50rem;
+    min-height: 20.9rem;
+    background-image: url("../resources/bg-image-random-quote.svg");
+    background-size: cover;
+    background-color: var(--rb-bg-clr);
+    border-radius: 1rem;
+    text-align: center;
+    padding: 3.2rem;
+}
+
+.author-name {
+    color: var(--text-clr);
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.tag-list {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    color: var(--tag-clr);
+    margin-bottom: 2.2rem;
+}
+
+.tag-item {
+    border: 1px solid currentColor;
+    border-radius: 50rem;
+    padding: 0.4rem 1.2rem;
+}
+
+.quote {
+    color: var(--text-clr);
+    /*color: var(--quote-clr);*/
+    font-size: 2.4rem;
+}
+
+.btn-container {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: none;
+    background-color: var(--rb-bg-clr);
+    cursor: pointer;
+    padding: 0.8rem 1.2rem;
+    border-radius: 1.2rem;
+    color: var(--text-clr);
+    font-size: 1.6rem;
+}
+
+
+
+
+
