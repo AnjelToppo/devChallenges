@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.6rem;
+}
+
+:root {
+    --dark-white-clr: #FAFAF9;
+    --light-white-clr: #F2F5F9;
+    --blackish-clr: #030616;
+    --blue-clr: #263FA9;
+    --white-opacity-clr: #F8FAFC1A;
+}
+
+/* RESET STYLE*/
+/* *************** */
+html {
+    font-size: 62.5%;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* *************** */
+
+body {
+
+}
+
+.qr-code-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 9.4rem;
+    background-image: url("../resources/qa-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+}
+
+.container {
+    padding-inline: 1.6rem;
+    width: 50rem;
+}
+
+.qr-code-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.url-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    column-gap: 1rem;
+    color: var(--light-white-clr);
+    padding: 0.8rem;
+    border: 2px solid var(--blue-clr);
+    background-color: var(--blackish-clr);
+    border-radius: 1.2rem;
+}
+
+::placeholder {
+    color: var(--dark-white-clr);
+}
+
+.url-input {
+    min-width: 9rem;
+    color: var(--light-white-clr);
+    background-color: transparent;
+    border: none;
+    padding: 1rem 1.6rem;
+}
+
+.url-input:focus {
+    outline: none;
+}
+
+.btn {
+    border: none;
+    background-color: var(--blue-clr);
+    color: var(--light-white-clr);
+    border-radius: 0.8rem;
+}
+
+.qr-code-btn {
+    padding: 0.4rem 2.4rem;
+}
+
+.logo-image {
+    margin-bottom: 2.4rem;
+}
+
+.qr-code-container {
+    position: relative;
+    margin-bottom: 8.2rem;
+}
+
+.qr-code-container::before{
+    height: 125%;
+    width: 125%;
+    content: '';
+    display: block;
+    background-color: var(--white-opacity-clr);
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*overflow: hidden;*/
+}
+
+
+
+#qrcode{
+    background-color: var(--dark-white-clr);
+    padding: 3.2rem;
+    border-radius: 2.4rem;
+}
+
+.btn-container {
+    display: flex;
+    gap: 3.2rem;
+}
+
+a, .share-btn, .copy-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light-white-clr);
+    padding: 1.6rem 3.2rem;
+}
+
+.download-icon, .share-icon, .copy-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+}
+
+.download-icon {
+    background-image: url("../resources/Load_circle_duotone.svg");
+}
+
+.share-icon {
+    background-image: url("../resources/link_alt.svg");
+}
+
+.qr-code-container, .btn-container {
+    display: none;
+}
+
+@media only screen and (max-width: 32em) {
+    .btn-container {
+        flex-direction: column;
+    }
+
+    #qrcode{
+        padding: 2.4rem;
+    }
+}
+
+
