@@ -35,17 +35,13 @@ qrCodeBtnEl.addEventListener('click', () => {
 
     let qrCodeImg = document.querySelectorAll('img')[1];
 
-    qrCodeImg.onload = () => {
-        let vp = document.getElementById('viewortMeta').getAttribute('content');
-        document.getElementById('viewortMeta').setAttribute('content', 'width=800');
+    qrCodeImg.onload = async () => {
 
-        html2canvas(document.querySelector("#qrcode"), {
+        await html2canvas(document.querySelector("#qrcode"), {
             allowTaint: true
         }).then(canvas => {
             alert('hi')
             downloadLinkEl.href = canvas.toDataURL('image/png');
-        }).then(function () {
-            document.getElementById('viewortMeta').setAttribute('content', vp)
         });
     }
 })
