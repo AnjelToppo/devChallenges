@@ -36,7 +36,9 @@ qrCodeBtnEl.addEventListener('click', () => {
     let qrCodeImg = document.querySelectorAll('img')[1];
 
     qrCodeImg.onload = () => {
-        html2canvas(document.querySelector("#qrcode")).then(canvas => {
+        html2canvas(document.querySelector("#qrcode"), {
+            allowTaint: true
+        }).then(canvas => {
             downloadLinkEl.href = canvas.toDataURL('image/png').replace("image/png", "image/octet-stream");;
         });
     }
