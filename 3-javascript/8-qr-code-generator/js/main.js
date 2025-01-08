@@ -1,6 +1,7 @@
 let urlIptEl = document.querySelector('.url-input');
 
 let qrCodeBtnEl = document.querySelector('.qr-code-btn');
+let downloadBtnEl = document.querySelector('.download-btn');
 let copyBtnEl = document.querySelector('.copy-btn');
 
 let copyBtnTextEl = document.querySelector('.copy-btn-text');
@@ -32,18 +33,17 @@ qrCodeBtnEl.addEventListener('click', () => {
             width: 200,
             colorLight: '#FAFAF9'
         });
+})
 
-    let qrCodeImg = document.querySelectorAll('img')[1];
+downloadBtnEl.addEventListener('click', () => {
+    html2canvas(document.getElementById("qrcode")).then((canvas) => {
+        const imageSrc = canvas.toDataURL('image/png');
 
-    qrCodeImg.onload = async () => {
-
-        await html2canvas(document.querySelector("#qrcode"), {
-            allowTaint: true
-        }).then(canvas => {
-            alert('hi')
-            downloadLinkEl.href = canvas.toDataURL('image/png');
-        });
-    }
+        const a = document.createElement('a');
+        a.href = imageSrc;
+        a.download = 'qr-code.png';
+        a.click();
+    });
 })
 
 copyBtnEl.addEventListener('click', async () => {

@@ -133,7 +133,7 @@ body {
     gap: 3.2rem;
 }
 
-a, .share-btn, .copy-btn {
+a, .share-btn, .copy-btn, .download-btn {
     display: flex;
     align-items: center;
     justify-content: center;
