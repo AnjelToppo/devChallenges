@@ -35,18 +35,12 @@ qrCodeBtnEl.addEventListener('click', () => {
 
     let qrCodeImg = document.querySelectorAll('img')[1];
 
-    let vp = document.getElementById("viewportMeta").getAttribute("content");
-
-    document.getElementById("viewportMeta").setAttribute("content", "width=800");
-
     qrCodeImg.onload = () => {
         html2canvas(document.querySelector("#qrcode"), {
             allowTaint: true
         }).then(canvas => {
-            downloadLinkEl.href = canvas.toDataURL('image/png').replace("image/png", "image/octet-stream");
-        }).then(function () {
-            document.getElementById("viewportMeta").setAttribute("content", vp);
-        });;
+            downloadLinkEl.href = canvas.toDataURL('image/png');
+        });
     }
 })
 
