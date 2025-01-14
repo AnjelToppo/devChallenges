@@ -1,3 +1,6 @@
+import starFill from './../../resources/Star_fill.svg';
+import star from './../../resources/Star.svg';
+
 export default function Card({coffee}) {
     return (
         <div className="card coffee">
@@ -13,7 +16,7 @@ export default function Card({coffee}) {
             </div>
             <div className="coffee__rating-vote">
                 <div className="ratings-detail">
-                    <img src={coffee.votes ? "../../resources/Star_fill.svg":"../../resources/Star.svg"} alt=""/>
+                    <img src={coffee.votes ? starFill: star} alt=""/>
                     <span className="coffee__rating">&nbsp;{coffee.rating}&nbsp;</span>
                     <span className="coffee__votes">({coffee.votes} votes)</span>
                 </div>
