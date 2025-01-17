@@ -1,25 +1,66 @@
+import sortAlfaIcon from '../assets/Sort_alfa.svg';
 
-export default function Translating({icons}) {
+import Button from "./Button.jsx";
+import SoundCopyButton from "./SoundCopyButton.jsx";
+import Select from "./Select.jsx";
+import TextArea from "./TextArea.jsx";
+
+export default function Translating({data, updateTranslation, onTranslateClick}) {
+    function handleActiveClick(button) {
+        updateTranslation(draft => {
+            draft.translating.detectBtn = false;
+            draft.translating.englishBtn = false;
+            draft.translating.frenchBtn = false;
+            draft.translating.selectBtn = false;
+        })
+        if (button === "detect") {
+            updateTranslation(draft => {
+                draft.translating.detectBtn = true;
+                draft.translating.code = 'autodetect';
+            })
+        } else if (button === "english") {
+            updateTranslation(draft => {
+                draft.translating.englishBtn = true;
+                draft.translating.code = 'en-GB';
+            })
+        } else if (button === "french") {
+            updateTranslation(draft => {
+                draft.translating.frenchBtn = true;
+                draft.translating.code = 'fr-FR';
+            })
+        } else if (button === "select") {
+            updateTranslation(draft => {
+                draft.translating.selectBtn = true;
+                draft.translating.code = 'es-ES';
+            })
+        }
+    }
+
+    function handleSelectChange(evt) {
+        updateTranslation(draft => {
+            draft.translating.code = evt.target.value;
+        })
+    }
+
+    function handleTextChange(evt) {
+        updateTranslation(draft => {
+            draft.translating.text = evt.target.value;
+        })
+    }
+
     return (<div className="translating-box box">
-            <div className="languages">
-                <button className="detect-lang btn">Detect Language</button>
-                <button className="english-lang active-btn btn">English</button>
-                <button className="french-lang btn">French</button>
-                <select name="langs" id="langs">
-                    <option value="Spanish">Spanish</option>
-                    <option value="Japanese">Japanese</option>
-                    <option value="Chinese">Chinese</option>
-                </select>
-            </div>
-            <hr className="box-hr"/>
-            <textarea value="Hello, how are you?" className="translating-text" maxLength={500}/>
-            <div className="word-limit">19/500</div>
-            <div className="box-footer">
-                <div className="sound-copy">
-                    <button className="btn icon-btn"><img src={icons.soundMaxIcon} alt=""/></button>
-                    <button className="btn icon-btn"><img src={icons.copyIcon} alt=""/></button>
-                </div>
-                <button className="translate btn main-btn"><img src={icons.sortAlfaIcon} alt=""/>Translate</button>
-            </div>
-        </div>)
+        <div className="languages">
+            <Button onActiveClick={() => handleActiveClick("detect")} className={data.detectBtn ? "active-btn" : ""}>Detect Language</Button>
+            <Button onActiveClick={() => handleActiveClick("english")} className={data.englishBtn ? "active-btn" : ""}>English</Button>
+            <Button onActiveClick={() => handleActiveClick("french")} className={data.frenchBtn ? "active-btn" : ""}>French</Button>
+            <Select onSelectChange={(e) => handleSelectChange(e)} onActiveClick={() => handleActiveClick("select")} className={data.selectBtn ? "active-btn" : ""} name={"translatingLanguage"} value={data.code} />
+        </div>
+        <hr className="box-hr"/>
+        <TextArea name={"translating-text"} onTextChange={(e) => handleTextChange(e)} value={data.text}/>
+        <div className="word-limit">{data.text.length}/500</div>
+        <div className="box-footer">
+            <SoundCopyButton/>
+            <Button onActiveClick={onTranslateClick} className="translate main-btn"><img src={sortAlfaIcon} alt=""/>Translate</Button>
+        </div>
+    </div>)
 }
