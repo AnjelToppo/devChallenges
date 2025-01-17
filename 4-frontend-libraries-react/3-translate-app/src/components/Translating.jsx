@@ -5,7 +5,7 @@ import SoundCopyButton from "./SoundCopyButton.jsx";
 import Select from "./Select.jsx";
 import TextArea from "./TextArea.jsx";
 
-export default function Translating({data, updateTranslation, onTranslateClick}) {
+export default function Translating({data, updateTranslation, onTranslateClick, onSoundClick, onCopyClick}) {
     function handleActiveClick(button) {
         updateTranslation(draft => {
             draft.translating.detectBtn = false;
@@ -59,7 +59,7 @@ export default function Translating({data, updateTranslation, onTranslateClick})
         <TextArea name={"translating-text"} onTextChange={(e) => handleTextChange(e)} value={data.text}/>
         <div className="word-limit">{data.text.length}/500</div>
         <div className="box-footer">
-            <SoundCopyButton/>
+            <SoundCopyButton onSoundClick={() => onSoundClick(data.text)} onCopyClick={() => onCopyClick(data.text)} />
             <Button onActiveClick={onTranslateClick} className="translate main-btn"><img src={sortAlfaIcon} alt=""/>Translate</Button>
         </div>
     </div>)

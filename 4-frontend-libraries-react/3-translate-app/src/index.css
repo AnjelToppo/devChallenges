@@ -108,6 +108,10 @@ select {
   min-height: 12.5rem;
 }
 
+.translating-box .text-box {
+  margin-bottom: 4px;
+}
+
 .word-limit {
   font-size: 1.2rem;
   font-weight: 500;

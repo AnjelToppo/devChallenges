@@ -21,27 +21,45 @@ export default function TranslateForm() {
 
     async function handleTranslateClick() {
         let langCodePair = `${translation.translating.code}|${translation.translated.code}`
-        await fetch("https://api.mymemory.translated.net/get", {
-            method: "POST", body: JSON.stringify({
-                q: translation.translating.text, langpair: langCodePair,
-            }), headers: {
-                "Content-Type": "application/json",
-            },
-        })
+        let translatingText = translation.translating.text;
+        await fetch(`https://api.mymemory.translated.net/get?q=${translatingText}&langpair=${langCodePair}`)
             .then((response) => response.json())
             .then((data) => {
-                console.log(data)
+                updateTranslation(draft => {
+                    draft.translated.text = data.responseData.translatedText;
+                })
+
             })
             .catch((error) => {
                 console.log(error)
             });
-
     }
 
+    function handleSoundClick(text) {
+        const synth = window.speechSynthesis;
+        const voice = synth.getVoices()[3];
+        const utterThis = new SpeechSynthesisUtterance(text);
+        utterThis.voice = voice;
+        window.speechSynthesis.cancel();
+        synth.speak(utterThis);
+        let r = setInterval(() => {
+            if (!synth.speaking) {
+                clearInterval(r);
+            } else {
+                synth.pause();
+                synth.resume();
+            }
+        }, 14000);
+    }
+
+    async function handleCopyClick(text) {
+        await navigator.clipboard.writeText(text);
+    }
 
     return (<main className="main">
         <Translating updateTranslation={updateTranslation} data={translation.translating}
-                     onTranslateClick={handleTranslateClick}/>
-        <Translated updateTranslation={updateTranslation} data={translation.translated}/>
+                     onTranslateClick={handleTranslateClick} onSoundClick={handleSoundClick} onCopyClick={handleCopyClick} />
+        <Translated updateTranslation={updateTranslation} data={translation.translated}
+                    onSoundClick={handleSoundClick}  onCopyClick={handleCopyClick} />
     </main>)
 }

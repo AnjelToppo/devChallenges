@@ -4,7 +4,7 @@ import Select from "./Select.jsx";
 import Button from "./Button.jsx";
 import TextArea from "./TextArea.jsx";
 
-export default function Translated({data, updateTranslation}) {
+export default function Translated({data, updateTranslation, onSoundClick, onCopyClick}) {
     function handleActiveClick(button) {
         updateTranslation(draft => {
             draft.translated.englishBtn = false;
@@ -102,7 +102,7 @@ export default function Translated({data, updateTranslation}) {
         <hr className="box-hr"/>
         <TextArea name={"translated-text"} onTextChange={(e) => handleTextChange(e)} value={data.text} />
         <div className="box-footer">
-            <SoundCopyButton />
+            <SoundCopyButton onSoundClick={() => onSoundClick(data.text)} onCopyClick={() => onCopyClick(data.text)} />
         </div>
     </div>)
 }

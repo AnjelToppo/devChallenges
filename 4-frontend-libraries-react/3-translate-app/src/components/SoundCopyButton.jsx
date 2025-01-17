@@ -3,9 +3,9 @@ import copyIcon from '../assets/Copy.svg';
 
 import Button from "./Button.jsx";
 
-export default function SoundCopyButton() {
+export default function SoundCopyButton({onSoundClick, onCopyClick}) {
     return (<div className="sound-copy">
-        <Button className="icon-btn"><img src={soundMaxIcon} alt=""/></Button>
-        <Button className="icon-btn"><img src={copyIcon} alt=""/></Button>
+        <Button onActiveClick={onSoundClick} className="icon-btn"><img src={soundMaxIcon} alt=""/></Button>
+        <Button onActiveClick={onCopyClick} className="icon-btn"><img src={copyIcon} alt=""/></Button>
     </div>)
 }
