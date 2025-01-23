@@ -27,14 +27,15 @@ function App() {
         }
 
         setIsDropClick(true)
-       if (headerProfile.message.includes('API rate limit exceeded')) {
-           setIsDropClick(false)
-       }
+        if (headerProfile.message) {
+            if (headerProfile.message.includes('API rate limit exceeded')) {
+                setIsDropClick(false)
+            }
 
-       if (headerProfile.message === "Not Found") {
-           setIsDropClick(false)
-       }
-
+            if (headerProfile.message === "Not Found") {
+                setIsDropClick(false)
+            }
+        }
 
         if (e.target.value === "") {
             setIsDropClick(false)
