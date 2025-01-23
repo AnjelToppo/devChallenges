@@ -14,9 +14,6 @@ function App() {
     useEffect(() => {
         async function fetchGithubData() {
             await fetchData('https://api.github.com/users/github', setProfile)
-            if (profile.message.includes('API rate limit exceeded')) {
-                return
-            }
             await fetchData('https://api.github.com/users/github/repos', setRepos)
         }
 
