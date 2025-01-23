@@ -255,6 +255,10 @@ button {
 }
 
 @media only screen and (max-width: 23.45em) {
+    .repository__stats {
+        flex-wrap: wrap;
+    }
+
     .repository__details {
         flex-direction: column;
         align-items: flex-start;
