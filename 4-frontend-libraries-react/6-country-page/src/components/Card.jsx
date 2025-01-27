@@ -46,7 +46,6 @@ export default function Card() {
 
     useEffect(() => {
         async function fetchData() {
-
             setCountries(countriesData)
             let refinedCountries = refineData(searchCountries.length > 0 ? searchCountries: countriesData, selectedRegion, selectedStatus,selectedSort);
             setCountries(refinedCountries);

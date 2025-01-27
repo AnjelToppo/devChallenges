@@ -20,6 +20,9 @@ export default function refineData(countriesData, selectedRegion, selectedStatus
     if (selectedStatus.includes("Member of the United Nations")) {
         filteredCountries = filteredCountries.filter(country => country.unMember);
     }
+    if (selectedStatus.length === 0) {
+        filteredCountries = []
+    }
 
     // Sort countries
     let sortedCountries = sortCountry(filteredCountries, selectedSort)
