@@ -15,9 +15,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "239",
         "independent": false,
         "unMember": false,
         "region": "Antarctic",
+        "subregion": "",
         "area": 3903,
         "population": 30
     },
@@ -37,9 +39,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "308",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 344,
         "population": 112519
     },
@@ -71,9 +75,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "756",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Western Europe",
         "area": 41284,
         "population": 8654622
     },
@@ -93,9 +99,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "694",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 71740,
         "population": 7976985
     },
@@ -115,9 +123,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "348",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Central Europe",
         "area": 93028,
         "population": 9749763
     },
@@ -137,9 +147,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "158",
         "independent": false,
         "unMember": false,
         "region": "Asia",
+        "subregion": "Eastern Asia",
         "area": 36193,
         "population": 23503349
     },
@@ -159,9 +171,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "876",
         "independent": false,
         "unMember": false,
         "region": "Oceania",
+        "subregion": "Polynesia",
         "area": 142,
         "population": 11750
     },
@@ -181,9 +195,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "052",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 430,
         "population": 287371
     },
@@ -203,9 +219,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "612",
         "independent": false,
         "unMember": false,
         "region": "Oceania",
+        "subregion": "Polynesia",
         "area": 47,
         "population": 56
     },
@@ -225,9 +243,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "384",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 322463,
         "population": 26378275
     },
@@ -247,9 +267,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "788",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Northern Africa",
         "area": 163610,
         "population": 11818618
     },
@@ -269,9 +291,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "380",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southern Europe",
         "area": 301336,
         "population": 59554023
     },
@@ -291,9 +315,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "204",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 112622,
         "population": 12123198
     },
@@ -313,9 +339,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "360",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "South-Eastern Asia",
         "area": 1904569,
         "population": 273523621
     },
@@ -335,9 +363,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "132",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 4033,
         "population": 555988
     },
@@ -357,9 +387,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "659",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 261,
         "population": 53192
     },
@@ -379,9 +411,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "418",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "South-Eastern Asia",
         "area": 236800,
         "population": 7275556
     },
@@ -405,9 +439,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "535",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 328,
         "population": 25987
     },
@@ -431,9 +467,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "800",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 241550,
         "population": 45741000
     },
@@ -453,9 +491,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "020",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southern Europe",
         "area": 468,
         "population": 77265
     },
@@ -479,9 +519,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "108",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 27834,
         "population": 11890781
     },
@@ -541,9 +583,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "710",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Southern Africa",
         "area": 1221037,
         "population": 59308690
     },
@@ -563,9 +607,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "250",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Western Europe",
         "area": 551695,
         "population": 67391582
     },
@@ -585,9 +631,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "434",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Northern Africa",
         "area": 1759540,
         "population": 6871287
     },
@@ -607,9 +655,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "484",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "North America",
         "area": 1964375,
         "population": 128932753
     },
@@ -629,9 +679,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "266",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Middle Africa",
         "area": 267668,
         "population": 2225728
     },
@@ -659,9 +711,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "580",
         "independent": false,
         "unMember": false,
         "region": "Oceania",
+        "subregion": "Micronesia",
         "area": 464,
         "population": 57557
     },
@@ -681,9 +735,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "807",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southeast Europe",
         "area": 25713,
         "population": 2077132
     },
@@ -703,9 +759,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "156",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Eastern Asia",
         "area": 9706961,
         "population": 1402112000
     },
@@ -725,9 +783,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "887",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 527968,
         "population": 29825968
     },
@@ -747,9 +807,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "652",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 21,
         "population": 4255
     },
@@ -777,9 +839,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "831",
         "independent": false,
         "unMember": false,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 78,
         "population": 62999
     },
@@ -799,9 +863,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "090",
         "independent": true,
         "unMember": true,
         "region": "Oceania",
+        "subregion": "Melanesia",
         "area": 28896,
         "population": 686878
     },
@@ -821,9 +887,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "744",
         "independent": false,
         "unMember": false,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 61399,
         "population": 2562
     },
@@ -847,9 +915,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "234",
         "independent": false,
         "unMember": false,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 1393,
         "population": 48865
     },
@@ -873,9 +943,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "860",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Central Asia",
         "area": 447400,
         "population": 34232050
     },
@@ -895,9 +967,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "818",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Northern Africa",
         "area": 1002450,
         "population": 102334403
     },
@@ -917,9 +991,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "686",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 196722,
         "population": 16743930
     },
@@ -943,9 +1019,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "144",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Southern Asia",
         "area": 65610,
         "population": 21919000
     },
@@ -965,9 +1043,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "275",
         "independent": false,
         "unMember": false,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 6220,
         "population": 4803269
     },
@@ -987,9 +1067,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "050",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Southern Asia",
         "area": 147570,
         "population": 164689383
     },
@@ -1017,9 +1099,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "604",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "South America",
         "area": 1285216,
         "population": 32971846
     },
@@ -1051,9 +1135,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "702",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "South-Eastern Asia",
         "area": 710,
         "population": 5685807
     },
@@ -1073,9 +1159,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "792",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 783562,
         "population": 84339067
     },
@@ -1103,9 +1191,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "004",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Southern Asia",
         "area": 652230,
         "population": 40218234
     },
@@ -1129,9 +1219,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "533",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 180,
         "population": 106766
     },
@@ -1155,9 +1247,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "184",
         "independent": false,
         "unMember": false,
         "region": "Oceania",
+        "subregion": "Polynesia",
         "area": 236,
         "population": 18100
     },
@@ -1177,9 +1271,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "826",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 242900,
         "population": 67215293
     },
@@ -1199,9 +1295,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "894",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 752612,
         "population": 18383956
     },
@@ -1225,9 +1323,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "246",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 338424,
         "population": 5530719
     },
@@ -1247,9 +1347,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "562",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 1267000,
         "population": 24206636
     },
@@ -1269,9 +1371,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "162",
         "independent": false,
         "unMember": false,
         "region": "Oceania",
+        "subregion": "Australia and New Zealand",
         "area": 135,
         "population": 2072
     },
@@ -1299,9 +1403,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "772",
         "independent": false,
         "unMember": false,
         "region": "Oceania",
+        "subregion": "Polynesia",
         "area": 12,
         "population": 1411
     },
@@ -1325,9 +1431,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "624",
         "independent": true,
         "unMember": false,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 36125,
         "population": 1967998
     },
@@ -1347,9 +1455,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "031",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 86600,
         "population": 10110116
     },
@@ -1369,9 +1479,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "638",
         "independent": false,
         "unMember": false,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 2511,
         "population": 840974
     },
@@ -1395,9 +1507,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "262",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 23200,
         "population": 988002
     },
@@ -1417,9 +1531,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "408",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Eastern Asia",
         "area": 120538,
         "population": 25778815
     },
@@ -1447,9 +1563,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "480",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 2040,
         "population": 1265740
     },
@@ -1469,9 +1587,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "500",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 102,
         "population": 4922
     },
@@ -1491,9 +1611,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "850",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 347,
         "population": 106290
     },
@@ -1513,9 +1635,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "170",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "South America",
         "area": 1141748,
         "population": 50882884
     },
@@ -1535,9 +1659,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "300",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southern Europe",
         "area": 131990,
         "population": 10715549
     },
@@ -1557,9 +1683,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "191",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southeast Europe",
         "area": 56594,
         "population": 4047200
     },
@@ -1583,9 +1711,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "504",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Northern Africa",
         "area": 446550,
         "population": 36910558
     },
@@ -1605,9 +1735,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "012",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Northern Africa",
         "area": 2381741,
         "population": 44700000
     },
@@ -1624,9 +1756,11 @@ let countries = [
 
             }
         },
+        "ccn3": "010",
         "independent": false,
         "unMember": false,
         "region": "Antarctic",
+        "subregion": "",
         "area": 14000000,
         "population": 1000
     },
@@ -1646,9 +1780,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "528",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Western Europe",
         "area": 41850,
         "population": 16655799
     },
@@ -1672,9 +1808,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "729",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Northern Africa",
         "area": 1886068,
         "population": 43849269
     },
@@ -1702,9 +1840,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "242",
         "independent": true,
         "unMember": true,
         "region": "Oceania",
+        "subregion": "Melanesia",
         "area": 18272,
         "population": 896444
     },
@@ -1724,9 +1864,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "438",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Western Europe",
         "area": 160,
         "population": 38137
     },
@@ -1746,9 +1888,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "524",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Southern Asia",
         "area": 147181,
         "population": 29136808
     },
@@ -1772,9 +1916,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "630",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 8870,
         "population": 3194034
     },
@@ -1794,9 +1940,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "268",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 69700,
         "population": 3714000
     },
@@ -1820,9 +1968,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "586",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Southern Asia",
         "area": 881912,
         "population": 220892331
     },
@@ -1842,9 +1992,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "492",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Western Europe",
         "area": 2.02,
         "population": 39244
     },
@@ -1868,9 +2020,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "072",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Southern Africa",
         "area": 582000,
         "population": 2351625
     },
@@ -1894,9 +2048,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "422",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 10452,
         "population": 6825442
     },
@@ -1924,9 +2080,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "598",
         "independent": true,
         "unMember": true,
         "region": "Oceania",
+        "subregion": "Melanesia",
         "area": 462840,
         "population": 8947027
     },
@@ -1946,9 +2104,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "175",
         "independent": false,
         "unMember": false,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 374,
         "population": 226915
     },
@@ -1968,9 +2128,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "214",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 48671,
         "population": 10847904
     },
@@ -1994,9 +2156,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "574",
         "independent": false,
         "unMember": false,
         "region": "Oceania",
+        "subregion": "Australia and New Zealand",
         "area": 36,
         "population": 2302
     },
@@ -2016,9 +2180,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "074",
         "independent": false,
         "unMember": false,
         "region": "Antarctic",
+        "subregion": "",
         "area": 49,
         "population": 0
     },
@@ -2038,9 +2204,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "634",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 11586,
         "population": 2881060
     },
@@ -2064,9 +2232,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "450",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 587041,
         "population": 27691019
     },
@@ -2094,9 +2264,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "356",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Southern Asia",
         "area": 3287590,
         "population": 1380004385
     },
@@ -2116,9 +2288,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "760",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 185180,
         "population": 17500657
     },
@@ -2138,9 +2312,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "499",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southeast Europe",
         "area": 13812,
         "population": 621718
     },
@@ -2164,9 +2340,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "748",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Southern Africa",
         "area": 17364,
         "population": 1160164
     },
@@ -2190,9 +2368,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "600",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "South America",
         "area": 406752,
         "population": 7132530
     },
@@ -2212,9 +2392,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "222",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Central America",
         "area": 21041,
         "population": 6486201
     },
@@ -2234,9 +2416,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "804",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Eastern Europe",
         "area": 603500,
         "population": 44134693
     },
@@ -2260,9 +2444,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "833",
         "independent": false,
         "unMember": false,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 572,
         "population": 85032
     },
@@ -2314,9 +2500,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "516",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Southern Africa",
         "area": 825615,
         "population": 2540916
     },
@@ -2336,9 +2524,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "784",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 83600,
         "population": 9890400
     },
@@ -2358,9 +2548,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "100",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southeast Europe",
         "area": 110879,
         "population": 6927288
     },
@@ -2380,9 +2572,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "304",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "North America",
         "area": 2166086,
         "population": 56367
     },
@@ -2402,9 +2596,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "276",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Western Europe",
         "area": 357114,
         "population": 83240525
     },
@@ -2424,9 +2620,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "116",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "South-Eastern Asia",
         "area": 181035,
         "population": 16718971
     },
@@ -2454,9 +2652,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "368",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 438317,
         "population": 40222503
     },
@@ -2476,9 +2676,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "260",
         "independent": false,
         "unMember": false,
         "region": "Antarctic",
+        "subregion": "",
         "area": 7747,
         "population": 400
     },
@@ -2498,9 +2700,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "752",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 450295,
         "population": 10353442
     },
@@ -2520,9 +2724,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "192",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 109884,
         "population": 11326616
     },
@@ -2546,9 +2752,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "417",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Central Asia",
         "area": 199951,
         "population": 6591600
     },
@@ -2568,9 +2776,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "643",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Eastern Europe",
         "area": 17098242,
         "population": 144104080
     },
@@ -2594,9 +2804,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "458",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "South-Eastern Asia",
         "area": 330803,
         "population": 32365998
     },
@@ -2616,9 +2828,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "678",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Middle Africa",
         "area": 964,
         "population": 219161
     },
@@ -2642,9 +2856,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "196",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southern Europe",
         "area": 9251,
         "population": 1207361
     },
@@ -2668,9 +2884,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "124",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "North America",
         "area": 9984670,
         "population": 38005238
     },
@@ -2694,9 +2912,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "454",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 118484,
         "population": 19129955
     },
@@ -2716,9 +2936,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "682",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 2149690,
         "population": 34813867
     },
@@ -2746,9 +2968,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "070",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southeast Europe",
         "area": 51209,
         "population": 3280815
     },
@@ -2768,9 +2992,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "231",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 1104300,
         "population": 114963583
     },
@@ -2790,9 +3016,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "724",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southern Europe",
         "area": 505992,
         "population": 47351567
     },
@@ -2812,9 +3040,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "705",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Central Europe",
         "area": 20273,
         "population": 2100126
     },
@@ -2834,9 +3064,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "512",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 309500,
         "population": 5106622
     },
@@ -2856,9 +3088,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "666",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "North America",
         "area": 242,
         "population": 6069
     },
@@ -2882,9 +3116,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "446",
         "independent": false,
         "unMember": false,
         "region": "Asia",
+        "subregion": "Eastern Asia",
         "area": 30,
         "population": 649342
     },
@@ -2904,9 +3140,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "674",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southern Europe",
         "area": 61,
         "population": 33938
     },
@@ -2930,9 +3168,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "426",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Southern Africa",
         "area": 30355,
         "population": 2142252
     },
@@ -2956,9 +3196,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "584",
         "independent": true,
         "unMember": true,
         "region": "Oceania",
+        "subregion": "Micronesia",
         "area": 181,
         "population": 59194
     },
@@ -2986,9 +3228,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "534",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 34,
         "population": 40812
     },
@@ -3008,9 +3252,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "352",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 103000,
         "population": 366425
     },
@@ -3038,9 +3284,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "442",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Western Europe",
         "area": 2586,
         "population": 632275
     },
@@ -3064,9 +3312,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "032",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "South America",
         "area": 2780400,
         "population": 45376763
     },
@@ -3086,9 +3336,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "796",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 948,
         "population": 38718
     },
@@ -3112,9 +3364,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "520",
         "independent": true,
         "unMember": true,
         "region": "Oceania",
+        "subregion": "Micronesia",
         "area": 21,
         "population": 10834
     },
@@ -3134,9 +3388,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "166",
         "independent": false,
         "unMember": false,
         "region": "Oceania",
+        "subregion": "Australia and New Zealand",
         "area": 14,
         "population": 544
     },
@@ -3164,9 +3420,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "732",
         "independent": false,
         "unMember": false,
         "region": "Africa",
+        "subregion": "Northern Africa",
         "area": 266000,
         "population": 510713
     },
@@ -3186,9 +3444,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "212",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 751,
         "population": 71991
     },
@@ -3208,9 +3468,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "188",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Central America",
         "area": 51100,
         "population": 5094114
     },
@@ -3230,9 +3492,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "036",
         "independent": true,
         "unMember": true,
         "region": "Oceania",
+        "subregion": "Australia and New Zealand",
         "area": 7692024,
         "population": 25687041
     },
@@ -3252,9 +3516,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "764",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "South-Eastern Asia",
         "area": 513120,
         "population": 69799978
     },
@@ -3278,9 +3544,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "332",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 27750,
         "population": 11402533
     },
@@ -3304,9 +3572,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "798",
         "independent": true,
         "unMember": true,
         "region": "Oceania",
+        "subregion": "Polynesia",
         "area": 26,
         "population": 11792
     },
@@ -3326,9 +3596,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "340",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Central America",
         "area": 112492,
         "population": 9904608
     },
@@ -3356,9 +3628,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "226",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Middle Africa",
         "area": 28051,
         "population": 1402985
     },
@@ -3378,9 +3652,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "662",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 616,
         "population": 183629
     },
@@ -3400,9 +3676,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "258",
         "independent": false,
         "unMember": false,
         "region": "Oceania",
+        "subregion": "Polynesia",
         "area": 4167,
         "population": 280904
     },
@@ -3426,9 +3704,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "112",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Eastern Europe",
         "area": 207600,
         "population": 9398861
     },
@@ -3448,9 +3728,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "428",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 64559,
         "population": 1901548
     },
@@ -3474,9 +3756,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "585",
         "independent": true,
         "unMember": true,
         "region": "Oceania",
+        "subregion": "Micronesia",
         "area": 459,
         "population": 18092
     },
@@ -3496,9 +3780,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "312",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 1628,
         "population": 400132
     },
@@ -3522,9 +3808,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "608",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "South-Eastern Asia",
         "area": 342353,
         "population": 109581085
     },
@@ -3544,9 +3832,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "292",
         "independent": false,
         "unMember": false,
         "region": "Europe",
+        "subregion": "Southern Europe",
         "area": 6,
         "population": 33691
     },
@@ -3566,9 +3856,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "208",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 43094,
         "population": 5831404
     },
@@ -3592,9 +3884,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "120",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Middle Africa",
         "area": 475442,
         "population": 26545864
     },
@@ -3614,9 +3908,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "324",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 245857,
         "population": 13132792
     },
@@ -3636,9 +3932,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "048",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 765,
         "population": 1701583
     },
@@ -3658,9 +3956,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "740",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "South America",
         "area": 163820,
         "population": 586634
     },
@@ -3696,9 +3996,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "180",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Middle Africa",
         "area": 2344858,
         "population": 108407721
     },
@@ -3722,9 +4024,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "706",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 637657,
         "population": 15893219
     },
@@ -3748,9 +4052,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "203",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Central Europe",
         "area": 78865,
         "population": 10698896
     },
@@ -3770,9 +4076,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "540",
         "independent": false,
         "unMember": false,
         "region": "Oceania",
+        "subregion": "Melanesia",
         "area": 18575,
         "population": 271960
     },
@@ -3800,9 +4108,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "548",
         "independent": true,
         "unMember": true,
         "region": "Oceania",
+        "subregion": "Melanesia",
         "area": 12189,
         "population": 307150
     },
@@ -3822,9 +4132,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "654",
         "independent": false,
         "unMember": false,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 394,
         "population": 53192
     },
@@ -3844,9 +4156,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "768",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 56785,
         "population": 8278737
     },
@@ -3866,9 +4180,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "092",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 151,
         "population": 30237
     },
@@ -3892,9 +4208,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "404",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 580367,
         "population": 53771300
     },
@@ -3918,9 +4236,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "570",
         "independent": false,
         "unMember": false,
         "region": "Oceania",
+        "subregion": "Polynesia",
         "area": 260,
         "population": 1470
     },
@@ -3940,9 +4260,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "334",
         "independent": false,
         "unMember": false,
         "region": "Antarctic",
+        "subregion": "",
         "area": 412,
         "population": 0
     },
@@ -3970,9 +4292,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "646",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 26338,
         "population": 12952209
     },
@@ -3992,9 +4316,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "233",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 45227,
         "population": 1331057
     },
@@ -4014,9 +4340,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "642",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southeast Europe",
         "area": 238391,
         "population": 19286123
     },
@@ -4036,9 +4364,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "780",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 5130,
         "population": 1399491
     },
@@ -4058,9 +4388,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "328",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "South America",
         "area": 214969,
         "population": 786559
     },
@@ -4084,9 +4416,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "626",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "South-Eastern Asia",
         "area": 14874,
         "population": 1318442
     },
@@ -4106,9 +4440,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "704",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "South-Eastern Asia",
         "area": 331212,
         "population": 97338583
     },
@@ -4128,9 +4464,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "858",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "South America",
         "area": 181034,
         "population": 3473727
     },
@@ -4154,9 +4492,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "336",
         "independent": true,
         "unMember": false,
         "region": "Europe",
+        "subregion": "Southern Europe",
         "area": 0.44,
         "population": 451
     },
@@ -4180,9 +4520,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "344",
         "independent": false,
         "unMember": false,
         "region": "Asia",
+        "subregion": "Eastern Asia",
         "area": 1104,
         "population": 7500700
     },
@@ -4202,9 +4544,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "040",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Central Europe",
         "area": 83871,
         "population": 8917205
     },
@@ -4224,9 +4568,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "028",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 442,
         "population": 97928
     },
@@ -4250,9 +4596,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "795",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Central Asia",
         "area": 488100,
         "population": 6031187
     },
@@ -4272,9 +4620,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "508",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 801590,
         "population": 31255435
     },
@@ -4294,9 +4644,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "591",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Central America",
         "area": 75417,
         "population": 4314768
     },
@@ -4316,9 +4668,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "583",
         "independent": true,
         "unMember": true,
         "region": "Oceania",
+        "subregion": "Micronesia",
         "area": 702,
         "population": 115021
     },
@@ -4342,9 +4696,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "372",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 70273,
         "population": 4994724
     },
@@ -4372,9 +4728,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "531",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 444,
         "population": 155014
     },
@@ -4394,9 +4752,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "254",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "South America",
         "area": 83534,
         "population": 254541
     },
@@ -4424,9 +4784,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "578",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 323802,
         "population": 5379475
     },
@@ -4446,9 +4808,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "248",
         "independent": false,
         "unMember": false,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 1580,
         "population": 29458
     },
@@ -4472,9 +4836,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "140",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Middle Africa",
         "area": 622984,
         "population": 4829764
     },
@@ -4494,9 +4860,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "854",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 272967,
         "population": 20903278
     },
@@ -4524,9 +4892,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "232",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 117600,
         "population": 5352000
     },
@@ -4550,9 +4920,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "834",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 945087,
         "population": 59734213
     },
@@ -4572,9 +4944,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "410",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Eastern Asia",
         "area": 100210,
         "population": 51780579
     },
@@ -4594,9 +4968,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "400",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 89342,
         "population": 10203140
     },
@@ -4616,9 +4992,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "478",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 1030700,
         "population": 4649660
     },
@@ -4638,9 +5016,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "440",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 65300,
         "population": 2794700
     },
@@ -4660,9 +5040,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "581",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "North America",
         "area": 34.2,
         "population": 300
     },
@@ -4682,9 +5064,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "703",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Central Europe",
         "area": 49037,
         "population": 5458827
     },
@@ -4704,9 +5088,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "024",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Middle Africa",
         "area": 1246700,
         "population": 32866268
     },
@@ -4730,9 +5116,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "398",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Central Asia",
         "area": 2724900,
         "population": 18754440
     },
@@ -4752,9 +5140,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "498",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Eastern Europe",
         "area": 33846,
         "population": 2617820
     },
@@ -4774,9 +5164,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "466",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 1240192,
         "population": 20250834
     },
@@ -4796,9 +5188,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "238",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "South America",
         "area": 12173,
         "population": 2563
     },
@@ -4818,9 +5212,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "051",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 29743,
         "population": 2963234
     },
@@ -4844,9 +5240,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "882",
         "independent": true,
         "unMember": true,
         "region": "Oceania",
+        "subregion": "Polynesia",
         "area": 2842,
         "population": 198410
     },
@@ -4874,9 +5272,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "832",
         "independent": false,
         "unMember": false,
         "region": "Europe",
+        "subregion": "Northern Europe",
         "area": 116,
         "population": 100800
     },
@@ -4896,9 +5296,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "392",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Eastern Asia",
         "area": 377930,
         "population": 125836021
     },
@@ -4930,9 +5332,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "068",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "South America",
         "area": 1098581,
         "population": 11673029
     },
@@ -4952,9 +5356,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "152",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "South America",
         "area": 756102,
         "population": 19116209
     },
@@ -4974,9 +5380,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "840",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "North America",
         "area": 9372610,
         "population": 329484123
     },
@@ -4996,9 +5404,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "670",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 389,
         "population": 110947
     },
@@ -5018,9 +5428,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "060",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "North America",
         "area": 54,
         "population": 63903
     },
@@ -5048,9 +5460,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "690",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 452,
         "population": 98462
     },
@@ -5070,9 +5484,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "086",
         "independent": false,
         "unMember": false,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 60,
         "population": 3000
     },
@@ -5092,9 +5508,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "320",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Central America",
         "area": 108889,
         "population": 16858333
     },
@@ -5114,9 +5532,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "218",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "South America",
         "area": 276841,
         "population": 17643060
     },
@@ -5136,9 +5556,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "474",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 1128,
         "population": 378243
     },
@@ -5162,9 +5584,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "762",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Central Asia",
         "area": 143100,
         "population": 9537642
     },
@@ -5188,9 +5612,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "470",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southern Europe",
         "area": 316,
         "population": 525285
     },
@@ -5210,9 +5636,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "270",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 10689,
         "population": 2416664
     },
@@ -5232,9 +5660,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "566",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 923768,
         "population": 206139587
     },
@@ -5254,9 +5684,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "044",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 13943,
         "population": 393248
     },
@@ -5280,8 +5712,10 @@ let countries = [
                 }
             }
         },
+        "ccn3": "",
         "unMember": false,
         "region": "Europe",
+        "subregion": "Southeast Europe",
         "area": 10908,
         "population": 1775378
     },
@@ -5301,9 +5735,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "414",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 17818,
         "population": 4270563
     },
@@ -5323,9 +5759,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "462",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Southern Asia",
         "area": 300,
         "population": 540542
     },
@@ -5345,9 +5783,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "728",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Middle Africa",
         "area": 619745,
         "population": 11193729
     },
@@ -5367,9 +5807,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "364",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Southern Asia",
         "area": 1648195,
         "population": 83992953
     },
@@ -5389,9 +5831,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "008",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southeast Europe",
         "area": 28748,
         "population": 2837743
     },
@@ -5411,9 +5855,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "076",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "South America",
         "area": 8515767,
         "population": 212559409
     },
@@ -5433,9 +5879,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "688",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southeast Europe",
         "area": 88361,
         "population": 6908224
     },
@@ -5463,9 +5911,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "084",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Central America",
         "area": 22966,
         "population": 397621
     },
@@ -5485,9 +5935,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "104",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "South-Eastern Asia",
         "area": 676578,
         "population": 54409794
     },
@@ -5507,9 +5959,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "064",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Southern Asia",
         "area": 38394,
         "population": 771612
     },
@@ -5529,9 +5983,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "862",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "South America",
         "area": 916445,
         "population": 28435943
     },
@@ -5551,9 +6007,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "430",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 111369,
         "population": 5057677
     },
@@ -5577,9 +6035,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "388",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 10991,
         "population": 2961161
     },
@@ -5599,9 +6059,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "616",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Central Europe",
         "area": 312679,
         "population": 37950802
     },
@@ -5621,9 +6083,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "136",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 264,
         "population": 65720
     },
@@ -5643,9 +6107,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "096",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "South-Eastern Asia",
         "area": 5765,
         "population": 437483
     },
@@ -5673,9 +6139,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "174",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Eastern Africa",
         "area": 1862,
         "population": 869595
     },
@@ -5703,9 +6171,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "316",
         "independent": false,
         "unMember": false,
         "region": "Oceania",
+        "subregion": "Micronesia",
         "area": 549,
         "population": 168783
     },
@@ -5729,9 +6199,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "776",
         "independent": true,
         "unMember": true,
         "region": "Oceania",
+        "subregion": "Polynesia",
         "area": 747,
         "population": 105697
     },
@@ -5755,9 +6227,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "296",
         "independent": true,
         "unMember": true,
         "region": "Oceania",
+        "subregion": "Micronesia",
         "area": 811,
         "population": 119446
     },
@@ -5777,9 +6251,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "288",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Western Africa",
         "area": 238533,
         "population": 31072945
     },
@@ -5803,9 +6279,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "148",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Middle Africa",
         "area": 1284000,
         "population": 16425859
     },
@@ -5881,9 +6359,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "716",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Southern Africa",
         "area": 390757,
         "population": 14862927
     },
@@ -5903,9 +6383,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "663",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 53,
         "population": 38659
     },
@@ -5925,9 +6407,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "496",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Eastern Asia",
         "area": 1564110,
         "population": 3278292
     },
@@ -5947,9 +6431,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "620",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Southern Europe",
         "area": 92090,
         "population": 10305564
     },
@@ -5973,9 +6459,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "016",
         "independent": false,
         "unMember": false,
         "region": "Oceania",
+        "subregion": "Polynesia",
         "area": 199,
         "population": 55197
     },
@@ -6003,9 +6491,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "178",
         "independent": true,
         "unMember": true,
         "region": "Africa",
+        "subregion": "Middle Africa",
         "area": 342000,
         "population": 5657000
     },
@@ -6033,9 +6523,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "056",
         "independent": true,
         "unMember": true,
         "region": "Europe",
+        "subregion": "Western Europe",
         "area": 30528,
         "population": 11555997
     },
@@ -6059,9 +6551,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "376",
         "independent": true,
         "unMember": true,
         "region": "Asia",
+        "subregion": "Western Asia",
         "area": 20770,
         "population": 9216900
     },
@@ -6089,9 +6583,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "554",
         "independent": true,
         "unMember": true,
         "region": "Oceania",
+        "subregion": "Australia and New Zealand",
         "area": 270467,
         "population": 5084300
     },
@@ -6111,9 +6607,11 @@ let countries = [
                 }
             }
         },
+        "ccn3": "558",
         "independent": true,
         "unMember": true,
         "region": "Americas",
+        "subregion": "Central America",
         "area": 130373,
         "population": 6624554
     },
@@ -6133,11 +6631,14 @@ let countries = [
                 }
             }
         },
+        "ccn3": "660",
         "independent": false,
         "unMember": false,
         "region": "Americas",
+        "subregion": "Caribbean",
         "area": 91,
         "population": 13452
     }
 ]
+
 export default countries;
