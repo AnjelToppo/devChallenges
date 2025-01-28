@@ -20,7 +20,7 @@ export default function refineData(countriesData, selectedRegion, selectedStatus
     if (selectedStatus.includes("Member of the United Nations")) {
         filteredCountries = filteredCountries.filter(country => country.unMember);
     }
-    if (selectedStatus.length === 0) {
+    if (selectedStatus.length === 0 && !selectedRegion.length > 0) {
         filteredCountries = []
     }
 

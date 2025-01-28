@@ -9,11 +9,12 @@ export default function Content({
                                     selectedStatus,
                                     onStatusChange,
                                     isLoading,
-                                    countries
+                                    countries,
+    onCountryClick
                                 }) {
     return (<div className="card__main">
         <Panel selectedSort={selectedSort} onSortChange={onSortChange} selectedRegion={selectedRegion}
                onRegionClick={onRegionClick} selectedStatus={selectedStatus} onStatusChange={onStatusChange}/>
-        <Result isLoading={isLoading} countries={countries}/>
+        <Result isLoading={isLoading} countries={countries} onCountryClick={onCountryClick}/>
     </div>)
 }

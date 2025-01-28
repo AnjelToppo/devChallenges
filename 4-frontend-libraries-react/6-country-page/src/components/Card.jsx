@@ -3,10 +3,11 @@ import Content from "./Content.jsx";
 import {useEffect, useState} from "react";
 import countriesData from "../data/countries.js";
 import refineData from "../utils/refineData.js";
+import CountryDetail from "./CountryDetail.jsx";
 
 let searchCountries = [];
 
-export default function Card() {
+export default function Card({onCountryClick}) {
     const [countries, setCountries] = useState([]);
     const [userInput, setUserInput] = useState("");
     const [selectedSort, setSelectedSort] = useState("population");
@@ -15,12 +16,17 @@ export default function Card() {
     const [isLoading, setIsLoading] = useState(true);
 
 
+
     function handleInputChange(e) {
         // Handle user input
-        if (userInput.length > 0) {
+        if (e.target.value.length > 0) {
             let input = e.target.value.toLowerCase();
             searchCountries = countriesData.filter(country => country.name.common.toLowerCase().includes(input) || country.region.toLowerCase().includes(input) || country.subregion.toLowerCase().includes(input));
             let refinedCountries = refineData(searchCountries, selectedRegion, selectedStatus,selectedSort);
+            setCountries(refinedCountries);
+        } else {
+            searchCountries = []
+            let refinedCountries = refineData(countriesData, selectedRegion, selectedStatus,selectedSort);
             setCountries(refinedCountries);
         }
         setUserInput(e.target.value)
@@ -60,7 +66,8 @@ export default function Card() {
     return (<div className="card">
         <Input value={userInput} onInputChange={handleInputChange} foundData={countries.length}/>
         <Content selectedSort={selectedSort} onSortChange={handleSortChange} selectedRegion={selectedRegion}
-                 onRegionClick={handleRegionClick} selectedStatus={selectedStatus} onStatusChange={handleStatusChange}
-                 isLoading={isLoading} countries={countries}/>
+                  onRegionClick={handleRegionClick} selectedStatus={selectedStatus} onStatusChange={handleStatusChange}
+                  isLoading={isLoading} countries={countries} onCountryClick={onCountryClick}/>
+
     </div>)
 }

@@ -1,4 +1,4 @@
-export default function Result({isLoading, countries}) {
+export default function Result({isLoading, countries, onCountryClick}) {
     return (<div className="result-container">
         {isLoading && <p>Loading...</p>}
         {!isLoading && <table className="result">
@@ -12,7 +12,7 @@ export default function Result({isLoading, countries}) {
             </tr>
             </thead>
             <tbody>
-            {countries.map(country => <tr key={country.name.common}>
+            {countries.map(country => <tr key={country.name.common} onClick={() => onCountryClick(country.ccn3)}>
                 <td><img src={country.flags.png}
                          alt={country.flags.alt} />
                 </td>
