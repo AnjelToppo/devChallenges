@@ -47,7 +47,7 @@ html {
 }
 
 .card {
-    flex-basis: 98rem;
+    flex-basis: 120.5rem;
     padding: 2.4rem 3rem;
     background-color: var(--blackish-clr);
     margin-top: -6rem;
@@ -110,7 +110,7 @@ html {
     gap: 3.2rem;
 }
 
-.panel{
+.panel {
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
@@ -225,7 +225,7 @@ input[type="checkbox"]:checked + span {
     white-space: nowrap;
 }
 
-thead th{
+thead th {
     font-size: 1.2rem;
     border-bottom: 1px solid var(--gray-1-clr);
     font-weight: 500;
@@ -242,7 +242,7 @@ tbody tr:hover {
     background-color: var(--gray-1-clr);
 }
 
-td img{
+td img {
     display: block;
     width: 5rem;
     height: 4rem;
@@ -269,7 +269,7 @@ td img{
     margin-top: -5rem;
 }
 
-.flag__img{
+.flag__img {
     height: 100%;
     width: 100%;
     border-radius: 1.2rem;
@@ -400,9 +400,30 @@ td img{
     background-image: url("../public/Arrow_right.svg");
 }
 
+.loading {
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--gray-3-clr);
+}
+
 @media only screen and (min-width: 80em) {
     .header__hero-image {
         width: 100%;
+    }
+
+    .result-container {
+
+    }
+}
+
+@media only screen and (max-width: 50em) {
+    .card {
+        overflow-x: scroll;
+    }
+    .card__main {
+        display: flex;
+        flex-shrink: 1;
+        flex-direction: column;
     }
 }
 

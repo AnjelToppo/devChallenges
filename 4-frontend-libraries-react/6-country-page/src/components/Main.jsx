@@ -15,7 +15,6 @@ export default function Main() {
         setIsResultDisplay(false);
     }
 
-    console.log(country)
     return (<main className="main">
         {isResultDisplay && <Card onCountryClick={handleCountryClick}/>}
         {!isResultDisplay && <CountryDetail country={country} onCountryClick={handleCountryClick}/>}

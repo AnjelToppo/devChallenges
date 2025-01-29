@@ -1,6 +1,6 @@
 export default function Result({isLoading, countries, onCountryClick}) {
     return (<div className="result-container">
-        {isLoading && <p>Loading...</p>}
+        {isLoading && <p className="loading">Loading...</p>}
         {!isLoading && <table className="result">
             <thead>
             <tr>
@@ -17,8 +17,8 @@ export default function Result({isLoading, countries, onCountryClick}) {
                          alt={country.flags.alt}/>
                 </td>
                 <td>{country.name.common}</td>
-                <td>{country.population}</td>
-                <td>{country.area}</td>
+                <td>{country.population.toLocaleString()}</td>
+                <td>{country.area.toLocaleString()}</td>
                 <td>{country.region}</td>
             </tr>)}
 

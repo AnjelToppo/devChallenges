@@ -44,11 +44,11 @@ export default function CountryDetail({country, onCountryClick}) {
         <div className="population-area">
             <div className="population tag">
                 <h3 className="population-area__title">Population</h3>
-                <span className="population-area__data">{country.population}</span>
+                <span className="population-area__data">{country.population.toLocaleString()}</span>
             </div>
             <div className="area tag">
                 <h3 className="population-area__title">Area(km<sup>2</sup>)</h3>
-                <span className="population-area__data">{country.area}</span>
+                <span className="population-area__data">{country.area.toLocaleString()}</span>
             </div>
         </div>
         <div className="info">
@@ -74,8 +74,8 @@ export default function CountryDetail({country, onCountryClick}) {
             </div>
             <div className="neighbour-countries info-container">
                 <h4 className="info__title">Neighbouring Countries</h4>
-                <ul className="neighbour-country-list">
-                    {isNeighbourLoading && <p>Loading...</p>}
+                <ul className="neighbour-country-list" style={isNeighbourLoading ? {justifyContent: 'center'} : {}}>
+                    {isNeighbourLoading && <p className="loading">Loading...</p>}
                     {!isNeighbourLoading && neighbours.map(neighbour => <li key={neighbour.name.official} className="neighbour-country" onClick={() => {
                         setIsNeighbourLoading(true)
                         onCountryClick(neighbour.ccn3)
