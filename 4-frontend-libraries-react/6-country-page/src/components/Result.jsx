@@ -14,7 +14,7 @@ export default function Result({isLoading, countries, onCountryClick}) {
             <tbody>
             {countries.map(country => <tr key={country.name.common} onClick={() => onCountryClick(country.ccn3)}>
                 <td><img src={country.flags.png}
-                         alt={country.flags.alt} />
+                         alt={country.flags.alt}/>
                 </td>
                 <td>{country.name.common}</td>
                 <td>{country.population}</td>

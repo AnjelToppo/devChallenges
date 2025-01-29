@@ -217,8 +217,6 @@ input[type="checkbox"]:checked + span {
     overflow-x: scroll;
 }
 
-
-
 .result {
     width: 100%;
     color: var(--gray-3-clr);
@@ -360,6 +358,46 @@ td img{
     height: 100%;
     width: 100%;
     border-radius: 0.4rem;
+}
+
+.pagination {
+    grid-column: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination .btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 2px solid var(--gray-1-clr);
+}
+
+.prev-btn {
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+}
+
+.next-btn {
+    padding-right: 1rem;
+    padding-left: 1.5rem;
+    margin-left: auto;
+}
+
+.arrow-icon {
+    display: inline-block;
+    height: 2.4rem;
+    width: 2.4rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.arrow-left {
+    background-image: url("../public/Arrow_left.svg");
+}
+
+.arrow-right {
+    background-image: url("../public/Arrow_right.svg");
 }
 
 @media only screen and (min-width: 80em) {
