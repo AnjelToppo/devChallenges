@@ -106,7 +106,7 @@ section {
     font-weight: 500;
 }
 
-.points{
+.points {
     display: flex;
     gap: 1rem;
     font-size: 1.6rem;
@@ -144,7 +144,7 @@ section {
     background-color: var(--violet-2-clr);
 }
 
-.question-btn__completed{
+.completed {
     background-image: var(--pink-gradient-clr);
 }
 
@@ -181,6 +181,15 @@ section {
 
 .option-btn:hover, .option-opted, .play-again {
     background-image: var(--pink-gradient-clr);
+}
+
+.option-btn:disabled {
+    cursor: not-allowed;
+}
+
+.loading {
+    font-size: 1.6rem;
+    font-weight: 500;
 }
 
 @media only screen and (max-width: 40em) {

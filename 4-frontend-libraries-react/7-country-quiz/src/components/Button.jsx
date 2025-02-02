@@ -1,6 +1,3 @@
-import correctIcon from './../assets/Check_round_fill.svg';
-import incorrectIcon from './../assets/Close_round_fill.svg';
-
-export default function Button({className, children}) {
-    return (<button className={className}>{children}</button>)
+export default function Button({onClick, className, isDisabled, children}) {
+    return (<button disabled={isDisabled} onClick={onClick} className={className}>{children}</button>)
 }
