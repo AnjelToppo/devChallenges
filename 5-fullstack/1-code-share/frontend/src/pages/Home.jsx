@@ -131,7 +131,7 @@ export default function Home() {
                                 </select>
                             </div>
                             <div className="copy-share">
-                                {isShare && <Link style={{backgroundImage: "url('/link.svg')"}} className="copy-share__btn copy-btn" target="_blank" to={code ? `/${code._id}`: '/'} onClick={() => handleCopyClick(window.location.href)}>{window.location.href}</Link>}
+                                {isShare && <button style={{backgroundImage: "url('/link.svg')"}} className="copy-share__btn copy-btn" onClick={() => handleCopyClick(window.location.href)}>{window.location.href}</button>}
                                 <button style={{backgroundImage: "url('/Share.svg')"}} className={!isShare ? "copy-share__btn share-btn" : "copy-share__btn share-btn share-btn__disabled"} disabled={isShare} onClick={handleShareClick}>Share</button>
                             </div>
                         </div>
