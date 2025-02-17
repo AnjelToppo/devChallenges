@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --black-1-clr: #121826;
+  --black-2-clr: #212936;
+  --violet-clr: #3662E3;
+  --sky-blue-clr: #C2DAF9;
+  --gray-1-clr: #4D5562;
+  --gray-2-clr: #E5E7EB;
+  --gray-3-clr: #F9FAFB;
+  --gray-3-opacity-clr: #F9FAFBCC;
+  --white-clr: #FFFFFF;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 7.2rem;
+  border-bottom: 1px solid;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+.company-logo__link , .company-logo__link:active {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 1rem;
+  color: var(--black-1-clr);
+}
+
+.theme-btn {
+  cursor: pointer;
+  padding: 0.8rem;
+  border: 1px solid;
+  border-radius: 0.8rem;
+}
+
+.theme-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.card {
+  max-width: 54rem;
+  width: 100%;
+  margin-top: 9.4rem;
+  padding: 0.8rem;
+  max-height: 34.4rem;
+  border-radius: 0.6rem;
+  background-color: var(--gray-3-opacity-clr);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / .1), 0 8px 10px -6px rgb(0 0 0 / .1);
+}
+
+.file-uploader {
+  border-radius: 0.6rem;
+  border: 2px dashed var(--gray-1-clr);
+  position: relative;
+}
+
+.file-uploader, .file-uploader__input {
+  width: 100%;
+  height: 100%;
+}
+
+.file-uploader__input {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  z-index: 100;
+}
+
+
+.file-uploader__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.upload-icon {
+  margin-bottom: 2rem;
+}
+
+.secondary-heading {
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.browse-files {
+  color: var(--violet-clr);
+  font-weight: 300;
+}
+
+.tertiary-heading {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+::-webkit-progress-value {
+  position: absolute;
+}
+
+@media only screen and (max-width: 26.5em) {
+  .header {
+    padding-inline: 4.2rem;
+  }
+
+}
