@@ -15,7 +15,7 @@ router
             if (err instanceof multer.MulterError && err.code === 'LIMIT_FILE_SIZE') {
                 error = new Error('File size must be less than or equal to 2MB!');
             } else if (err) {
-                error = new Error('Something went wrong!');
+                error = new Error(err.message);
             }
             next(error);
         })

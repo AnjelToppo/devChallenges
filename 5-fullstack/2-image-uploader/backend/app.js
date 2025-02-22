@@ -16,5 +16,12 @@ app.use(cookieParser());
 
 app.use('/api/v1/images', imageRouter);
 
+app.use(function (err, req, res, next) {
+    res.status(500).json({
+        status: 'fail',
+        message: err.message,
+    });
+});
+
 
 module.exports = app;

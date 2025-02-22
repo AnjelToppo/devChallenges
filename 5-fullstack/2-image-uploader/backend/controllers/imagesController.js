@@ -1,7 +1,5 @@
 const Image = require('../models/image.model');
 
-
-
 exports.getAllImages = async (req, res) => {
     try {
         const images = await Image.find();
@@ -20,13 +18,8 @@ exports.getAllImages = async (req, res) => {
     }
 };
 
-exports.createImage = async (err, req, res, next) => {
-    if (err) {
-        return res.status(400).json({
-            status: 'fail',
-            message: err.message
-        })
-    }
+exports.createImage = async (req, res) => {
+
     try {
         const image = req.file;
         if (!image) {
@@ -48,7 +41,7 @@ exports.createImage = async (err, req, res, next) => {
             message: 'Something went wrong!'
         })
     }
-};
+}
 
 exports.getImage = async (req, res) => {
     try {
