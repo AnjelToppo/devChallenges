@@ -42,8 +42,11 @@ h1 {
   color: var(--black-1-clr);
 }
 
-.theme-btn {
+.btn {
   cursor: pointer;
+}
+
+.theme-btn {
   padding: 0.8rem;
   border: 1px solid;
   border-radius: 0.8rem;
@@ -59,23 +62,38 @@ h1 {
   display: flex;
   justify-content: center;
   min-height: 90vh;
+  padding-bottom: 9rem;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  position: relative;
   max-width: 54rem;
   width: 100%;
   margin-top: 9.4rem;
+  margin-inline: 1.6rem;
   padding: 0.8rem;
-  max-height: 34.4rem;
+  max-height: max-content;
   border-radius: 0.6rem;
   background-color: var(--gray-3-opacity-clr);
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / .1), 0 8px 10px -6px rgb(0 0 0 / .1);
+  box-shadow: 0 8px 10px -6px rgb(0 0 0 / .1), 0 8px 10px -6px rgb(0 0 0 / .1);
+}
+
+.copy-success-toast {
+  position: absolute;
+  top: -3.2rem;
+  color: green;
+  font-size: 1.4rem;
 }
 
 .file-uploader {
   border-radius: 0.6rem;
   border: 2px dashed var(--gray-1-clr);
   position: relative;
+  max-height: 34.4rem;
 }
 
 .file-uploader, .file-uploader__input {
@@ -120,13 +138,100 @@ h1 {
   font-size: 1.2rem;
 }
 
-::-webkit-progress-value {
+.progress-ui {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding: 3.2rem 8rem;
+  width: 100%;
+}
+
+.uploading {
+  font-weight: 600;
+}
+
+.progress {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50rem;
+  width: 100%;
+  height: 0.6rem;
+  background-color: var(--gray-2-clr);
+}
+
+.progress-value{
+  border-radius: 50rem;
   position: absolute;
+  top: 0;
+  left: 20%;
+  display: inline-block;
+  background-color: blue;
+  width: 5.6rem;
+  height: 0.6rem;
+  animation: linear infinite;
+  animation-name: progressing;
+  animation-duration: 5s;
+}
+
+.uploaded-image {
+  border-radius: 0.6rem;
+  width: 100%;
+  height: 100%;
+}
+
+.cta {
+  display: flex;
+  gap: 0.8rem;
+  position: absolute;
+  bottom: -20%;
+}
+
+.share-btn, .download-btn {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  color: var(--white-clr);
+  font-size: 1.6rem;
+  background-color: var(--violet-clr);
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.4rem;
+}
+
+.icon {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.error {
+  gap: 1.6rem;
+  padding: 2.4rem;
+  color: crimson;
+}
+
+@keyframes progressing {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: calc(100% - 56px);
+  }
+
+  100% {
+    left: 0;
+  }
 }
 
 @media only screen and (max-width: 26.5em) {
   .header {
     padding-inline: 4.2rem;
+  }
+
+  .progress-value{
+    animation-duration: 2s;
   }
 
 }

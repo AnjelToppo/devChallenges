@@ -12,7 +12,7 @@ export default function Header({theme, onThemeClick}) {
                 </a>
             </div>
             <div className="theme">
-                <button className="theme-btn" onClick={onThemeClick}
+                <button className="theme-btn btn" onClick={onThemeClick}
                         style={theme === "light" ? {backgroundColor: "#fff", borderColor: "#E5E7EB"} : {backgroundColor: "#212936", borderColor: "#4D5562"}}>
                     <img className="theme-icon" src={theme === "light" ? DarkThemeIcon : LightThemeIcon}
                          alt="theme icon"/>

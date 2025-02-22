@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80b1ef8-a15f-4ce3-8381-971a4fb2c5ad" name="Changes" comment="" />
+    <list default="true" id="d80b1ef8-a15f-4ce3-8381-971a4fb2c5ad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="JSX File" />
       </list>
     </option>
@@ -36,7 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/anjeltoppo/WebstormProjects/devChallenges/5-fullstack/2-image-uploader/frontend/public&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/anjeltoppo/WebstormProjects/devChallenges/5-fullstack/2-image-uploader&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,8 +58,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$/frontend/public" />
       <recent name="$PROJECT_DIR$/frontend/src/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend" />
+      <recent name="$PROJECT_DIR$/backend" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -64,7 +78,27 @@
       <workItem from="1739771177954" duration="158000" />
       <workItem from="1739771404743" duration="3919000" />
       <workItem from="1739785332379" duration="14727000" />
-      <workItem from="1739812327766" duration="251000" />
+      <workItem from="1739812327766" duration="1545000" />
+      <workItem from="1739852500380" duration="6464000" />
+      <workItem from="1739869992222" duration="9975000" />
+      <workItem from="1739940909023" duration="5770000" />
+      <workItem from="1739947784280" duration="1754000" />
+      <workItem from="1739956923314" duration="642000" />
+      <workItem from="1739957904731" duration="1331000" />
+      <workItem from="1739974617546" duration="7781000" />
+      <workItem from="1740025061973" duration="1353000" />
+      <workItem from="1740027138921" duration="2785000" />
+      <workItem from="1740030090871" duration="304000" />
+      <workItem from="1740030879671" duration="11081000" />
+      <workItem from="1740058459628" duration="4328000" />
+      <workItem from="1740068440974" duration="5790000" />
+      <workItem from="1740111602753" duration="4586000" />
+      <workItem from="1740119653183" duration="2139000" />
+      <workItem from="1740130718030" duration="6997000" />
+      <workItem from="1740144672649" duration="3105000" />
+      <workItem from="1740148633200" duration="8355000" />
+      <workItem from="1740198295325" duration="4166000" />
+      <workItem from="1740202941080" duration="5701000" />
     </task>
     <servers />
   </component>
