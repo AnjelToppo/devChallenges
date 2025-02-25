@@ -50,7 +50,7 @@ exports.createBoard = async (req, res) => {
 exports.getBoard = async (req, res) => {
     try {
         const id = req.params.boardId;
-        const board = await Board.findById(id);
+        const board = await Board.findById(id).populate('tasks');
         res.status(200).json({
             status: 'success',
             data: {

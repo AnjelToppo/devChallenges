@@ -10,7 +10,14 @@ const boardSchema = new Schema({
         type: String,
         required: [true, 'Please provide description for board'],
     }
-}, {timestamps: true});
+}, {timestamps: true, toJSON: {virtuals: true}, toObject: {virtuals: true}});
+
+boardSchema.virtual('tasks', {
+    ref: 'Task',
+    foreignField: 'board',
+    localField: '_id'
+})
+
 const Board = model('Board', boardSchema);
 
 module.exports = Board;
