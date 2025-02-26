@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --whitish-clr: #F8FAFC;
+    --violet-clr: #3662E3;
+    --black-transparent-clr: #00000033;
+    --reddish-clr: #DD524C;
+    --yellow-1-clr: #E9A23B;
+    --yellow-2-clr: #F5D565;
+    --pink-1-clr: #F7D4D3;
+    --pink-2-clr: #F5E8D5;
+    --green-1-clr: #32D657;
+    --green-2-clr: #A0ECB1;
+    --gray-1-clr: #384152;
+    --gray-2-clr: #E3E8EF;
+}
+
+body {
+    background-color: var(--whitish-clr);
+}
+
+.logo-container {
+    margin-bottom: 2.4rem;
+}
+
+.logo {
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: #384152FF;
+}
+
+.home-header {
+    padding-inline: 1.6rem;
+}
+
+.home-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5.4rem;
+    max-width: 50rem;
+    padding-inline: 1.6rem;
+}
+
+.hero-img {
+    display: flex;
+    border-radius: 1.6rem;
+    width: 100%;
+}
+
+.main-heading {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    max-width: 35rem;
+    font-size: 1.4rem;
+    margin-bottom: 2.4rem;
+    margin-inline: auto;
+}
+
+.application-name {
+    /*background: rgb(131,58,180);*/
+    background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+.home {
+    text-align: center;
+    max-width: max-content;
+    margin-inline: auto;
+    padding-top: 5.4rem;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.main-btn {
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+    width: max-content;
+    color: var(--gray-1-clr);
+    background-color: var(--yellow-2-clr);
+    padding: 1.6rem 2.4rem;
+    border-radius: 1.6rem;
+    border: 2px solid var(--yellow-1-clr);
+}
+
+.main-btn:hover {
+    background-color: var(--yellow-1-clr);
+    transform: translateY(2px);
+    transition: transform 0.2s linear, background-color 0.2s linear;
+}
+
