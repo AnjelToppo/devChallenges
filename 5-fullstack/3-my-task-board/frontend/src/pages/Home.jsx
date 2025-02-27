@@ -1,7 +1,13 @@
+import {useNavigate} from "react-router-dom";
 import AppLogo from "./../assets/Logo.svg";
 import Tasks from '/tasks.jpg';
 
 export default function Home() {
+    const navigate = useNavigate();
+
+    function handleCreateBoardClick() {
+        navigate('/board/abc');
+    }
 
     return (<section className="home">
         <header className="home-header">
@@ -16,7 +22,7 @@ export default function Home() {
             <p className="subtitle">Conquer chaos, one board at a time. Your tasks, beautifully organized.</p>
         </header>
         <main className="home-main">
-            <button className="btn main-btn">Create Your First Board</button>
+            <button className="btn main-btn" onClick={handleCreateBoardClick}>Create Your First Board</button>
             <img className="hero-img" src={Tasks} alt=""/>
             <a href="http://www.freepik.com">Image source: Designed by stories / Freepik</a>
         </main>
