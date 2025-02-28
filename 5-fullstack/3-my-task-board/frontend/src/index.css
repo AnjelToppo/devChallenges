@@ -229,12 +229,13 @@ body {
 }
 
 .tasks__main {
-    margin-left: 5.6rem;
+    margin-left: 5rem;
 }
 
 .tasks__main--description {
     font-size: 1.6rem;
     font-weight: 300;
+    text-align: left;
 }
 
 .new-task__title {
@@ -332,7 +333,7 @@ body {
 }
 
 .selected-task-icon-container {
-    background-color: var(--yellow-1-clr);
+    background-color: var(--yellow-2-clr);
 }
 
 .task-icon-container:focus {
@@ -352,6 +353,10 @@ body {
     border-radius: 1rem;
     align-items: center;
     padding: 2px;
+}
+
+.selected-status__pair {
+    border-color: var(--violet-clr);
 }
 
 .status__pair:focus {
