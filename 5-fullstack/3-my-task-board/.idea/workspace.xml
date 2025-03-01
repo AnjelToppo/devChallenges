@@ -6,19 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="690ebf5e-68e6-48b8-b32a-f0853fed68dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../2-image-uploader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2-image-uploader/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/task.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/task.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/models/task.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/task.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/task.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/task.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Modal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/NewTask.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/NewTask.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Task.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Task.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Tasks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Tasks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Title.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Title.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Board.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Board.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,24 +42,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.2.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.2.0&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/anjeltoppo/WebstormProjects/devChallenges/5-fullstack/3-my-task-board/frontend/public&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/anjeltoppo/Downloads/WebStorm-243.21565.180/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "22.2.0",
+    "javascript.nodejs.core.library.typings.version": "22.2.0",
+    "last_opened_file_path": "/home/anjeltoppo/WebstormProjects/devChallenges/5-fullstack/2-image-uploader",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/home/anjeltoppo/Downloads/WebStorm-243.21565.180/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend/public" />
@@ -94,7 +87,7 @@
       <workItem from="1740752492796" duration="1703000" />
       <workItem from="1740758256086" duration="2168000" />
       <workItem from="1740804834756" duration="7060000" />
-      <workItem from="1740821639203" duration="4430000" />
+      <workItem from="1740821639203" duration="6238000" />
     </task>
     <servers />
   </component>

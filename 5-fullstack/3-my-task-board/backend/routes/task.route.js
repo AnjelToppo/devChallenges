@@ -9,7 +9,7 @@ router
 
 router
     .route('/:taskId')
-    .patch(taskController.updateTask)
+    .put(taskController.updateTask)
     .delete(taskController.deleteTask)
 
 module.exports = router;

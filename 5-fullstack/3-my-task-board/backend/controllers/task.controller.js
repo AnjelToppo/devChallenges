@@ -21,6 +21,7 @@ exports.getAllTask = async (req, res) => {
 exports.createTask = async (req, res) => {
     try {
         // COME BACK LATER AND HANDLE BOARD ID
+        console.log(req.body)
         const newTask = await Task.create(req.body);
         res.status(200).json({
             status: 'success',
@@ -29,6 +30,7 @@ exports.createTask = async (req, res) => {
             }
         })
     } catch (err) {
+        console.log(err)
         res.status(500).json({
             status: 'fail',
             message: 'Something went wrong'
@@ -38,6 +40,7 @@ exports.createTask = async (req, res) => {
 
 exports.updateTask = async (req, res) => {
     try {
+        console.log(req.body)
         const id = req.params.taskId;
         const task = await Task.findByIdAndUpdate(id, req.body, {
             runValidators: true,
