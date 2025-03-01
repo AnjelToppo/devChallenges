@@ -138,6 +138,7 @@ body {
     max-width: 60.7rem;
     margin-inline: auto;
     padding-inline: 1.6rem;
+    padding-bottom: 3.6rem;
 }
 
 .tasks__list {
@@ -410,12 +411,75 @@ body {
     background-color: var(--black-transparent-clr);
 }
 
+
+.board-form {
+    background-color: var(--yellow-2-clr);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    column-gap: 1.6rem;
+    row-gap: 1rem;
+}
+
+.board-form-pair {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.board-form__label {
+    font-size: 1.6rem;
+    color: var(--gray-1-clr);
+    font-weight: 500;
+}
+
+.board-form__input {
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    border: 2px solid var(--yellow-1-clr);
+    padding: 0.5rem;
+}
+
+.board-form__name {
+    grid-column: 1 / 2;
+}
+
+.board-form__description {
+    grid-column: 2 / 4;
+}
+
+.board-form__save-btn {
+    grid-column: 3;
+    background-color: var(--green-1-clr);
+    padding: 1rem 1.6rem;
+    border-radius: 0.8rem;
+    color: var(--gray-1-clr);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+
 @media only screen and (max-width: 48.75em) {
     .icon-container {
         flex-wrap: wrap;
     }
     .status-container {
         grid-template-columns: 1fr;
+    }
+
+    .board-form__details {
+        width: 100%;
+    }
+
+    .board-form__input--name {
+        width: 50%;
+    }
+
+    .board-form {
+        display: flex;
+        flex-direction: column;
     }
 }
 

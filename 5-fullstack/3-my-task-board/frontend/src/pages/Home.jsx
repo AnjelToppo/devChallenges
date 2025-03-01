@@ -5,8 +5,19 @@ import Tasks from '/tasks.jpg';
 export default function Home() {
     const navigate = useNavigate();
 
-    function handleCreateBoardClick() {
-        navigate('/board/abc');
+    async function handleCreateBoardClick() {
+        const response = await fetch('/api/v1/boards', {
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                name: 'My Task Board',
+                description: 'Tasks to keep organised'
+            })
+        });
+        const data = await response.json();
+        navigate(`/board/${data.data.board._id}`);
     }
 
     return (<section className="home">

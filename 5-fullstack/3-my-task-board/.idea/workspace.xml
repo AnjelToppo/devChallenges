@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="690ebf5e-68e6-48b8-b32a-f0853fed68dd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../2-image-uploader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2-image-uploader/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/task.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/task.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/task.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/task.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/task.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/task.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Modal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/NewTask.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/NewTask.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Task.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Task.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Tasks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Tasks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Title.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Title.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Board.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Board.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2tRnkXth3oUnCVXhdc9Aq1o3l1o" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.2.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.2.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/anjeltoppo/WebstormProjects/devChallenges/5-fullstack/3-my-task-board/frontend/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/anjeltoppo/Downloads/WebStorm-243.21565.180/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/public" />
+      <recent name="$PROJECT_DIR$/frontend/src/assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="690ebf5e-68e6-48b8-b32a-f0853fed68dd" name="Changes" comment="" />
+      <created>1740323898109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740323898109</updated>
+      <workItem from="1740323900091" duration="238000" />
+      <workItem from="1740476126745" duration="3833000" />
+      <workItem from="1740480560075" duration="9761000" />
+      <workItem from="1740544933583" duration="8957000" />
+      <workItem from="1740560684927" duration="15068000" />
+      <workItem from="1740633121520" duration="4492000" />
+      <workItem from="1740654306215" duration="5871000" />
+      <workItem from="1740665071885" duration="4777000" />
+      <workItem from="1740720867152" duration="6631000" />
+      <workItem from="1740736230650" duration="5269000" />
+      <workItem from="1740752492796" duration="1703000" />
+      <workItem from="1740758256086" duration="2168000" />
+      <workItem from="1740804834756" duration="7060000" />
+      <workItem from="1740821639203" duration="4430000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

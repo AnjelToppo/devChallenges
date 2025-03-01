@@ -1,8 +1,12 @@
 import AddTaskIcon from './../assets/Add_round_duotone.svg';
 
-export default function NewTask() {
+export default function NewTask({onNewTaskClick, setIsNewTask}) {
+    function handleNewTaskClick(){
+        setIsNewTask(true);
+        onNewTaskClick(true);
+    }
     return (
-        <li className="tasks__el tasks__el--new-task new-task">
+        <li onClick={handleNewTaskClick} className="tasks__el tasks__el--new-task new-task">
             <div className="tasks__status-container--new-task">
                 <img src={AddTaskIcon} alt=""/>
             </div>
