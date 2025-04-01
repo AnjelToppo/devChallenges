@@ -261,7 +261,7 @@ body {
     top: 1.6rem;
     z-index: 100;
     background-color: var(--whitish-clr);
-    padding: 20px;
+    padding: 2rem;
     width: 50%;
     height: max-content;
     border-radius: 1rem;
