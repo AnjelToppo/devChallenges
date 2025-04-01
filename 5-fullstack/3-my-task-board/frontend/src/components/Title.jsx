@@ -2,6 +2,8 @@ import AppLogo from './../assets/Logo.svg';
 import EditPen from './../assets/Edit_duotone.svg';
 import {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
+import CloseIcon from "./../assets/close_ring_duotone-1.svg";
+
 
 export default function Title({name, description, setBoard}) {
     const [isShowToast, setIsShowToast] = useState(false);
@@ -18,6 +20,10 @@ export default function Title({name, description, setBoard}) {
 
     function handleEditClick() {
         setIsBoardEdit(true);
+    }
+
+    function handleCancelTitleClick(){
+        setIsBoardEdit(false);
     }
 
     async function handleSaveClick() {
@@ -52,6 +58,9 @@ export default function Title({name, description, setBoard}) {
             {isBoardEdit && <div className="board-form__details">
                 <form className="board-form">
                     {isShowToast && <p style={{color: "red", fontSize: "1.6rem"}}>Please fill all fields.</p>}
+                    <button type="button" className="btn close-btn close-title-btn" onClick={handleCancelTitleClick}>
+                        <img src={CloseIcon} alt=""/>
+                    </button>
                     <div className="board-form-pair board-form__name">
                         <label className="board-form__label" htmlFor="board-name">Board name</label>
                         <input value={boardTitle.name} onChange={(e) => handleBoardChange('name', e.target.value)}

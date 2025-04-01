@@ -460,6 +460,14 @@ body {
     font-weight: 500;
 }
 
+.close-title-btn {
+    grid-column: 3;
+    justify-self: end;
+    background-color: var(--whitish-clr);
+    border: 2px solid var(--yellow-1-clr);
+
+}
+
 
 @media only screen and (max-width: 48.75em) {
     .icon-container {
