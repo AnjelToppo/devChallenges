@@ -417,7 +417,7 @@ body {
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
-    grid-template-columns: 30% 50%;
+    grid-template-columns: 1fr 6fr;
     column-gap: 1.6rem;
     row-gap: 1rem;
 }
@@ -460,14 +460,21 @@ body {
     font-weight: 500;
 }
 
-.close-title-btn {
-    grid-column: 3;
-    justify-self: end;
-    background-color: var(--whitish-clr);
-    border: 2px solid var(--yellow-1-clr);
-
+.board-form__cancel-btn {
+    /*grid-column: 3;*/
+    padding: 1rem 1.6rem;
+    border-radius: 0.8rem;
+    color: var(--gray-1-clr);
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: var(--reddish-clr);
 }
 
+.title-cta {
+    display: flex;
+    gap: 1.6rem;
+    grid-column: 3;
+}
 
 @media only screen and (max-width: 48.75em) {
     .icon-container {
@@ -488,6 +495,10 @@ body {
     .board-form {
         display: flex;
         flex-direction: column;
+    }
+
+    .title-cta {
+        align-self: flex-end;
     }
 }
 

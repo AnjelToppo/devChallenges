@@ -2,15 +2,13 @@ import AppLogo from './../assets/Logo.svg';
 import EditPen from './../assets/Edit_duotone.svg';
 import {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
-import CloseIcon from "./../assets/close_ring_duotone-1.svg";
 
 
 export default function Title({name, description, setBoard}) {
     const [isShowToast, setIsShowToast] = useState(false);
     const [isBoardEdit, setIsBoardEdit] = useState(false);
     const [boardTitle, setBoardTitle] = useState({
-        name,
-        description
+        name, description
     })
     const params = useParams();
 
@@ -22,7 +20,7 @@ export default function Title({name, description, setBoard}) {
         setIsBoardEdit(true);
     }
 
-    function handleCancelTitleClick(){
+    function handleCancelTitleClick() {
         setIsBoardEdit(false);
     }
 
@@ -32,11 +30,9 @@ export default function Title({name, description, setBoard}) {
             return;
         }
         await fetch(`/api/v1/boards/${params.boardId}`, {
-            method: "PUT",
-            headers: {
+            method: "PUT", headers: {
                 "Content-Type": "application/json"
-            },
-            body: JSON.stringify(boardTitle)
+            }, body: JSON.stringify(boardTitle)
         });
         const board = await fetch(`/api/v1/boards/${params.boardId}`);
         const data = await board.json();
@@ -47,20 +43,15 @@ export default function Title({name, description, setBoard}) {
 
     useEffect(() => {
         setBoardTitle({
-            name,
-            description
+            name, description
         })
     }, [name, description])
 
-    return (
-        <header className="board">
+    return (<header className="board">
             <a href="/"><img className="icon" src={AppLogo} alt=""/></a>
             {isBoardEdit && <div className="board-form__details">
                 <form className="board-form">
                     {isShowToast && <p style={{color: "red", fontSize: "1.6rem"}}>Please fill all fields.</p>}
-                    <button type="button" className="btn close-btn close-title-btn" onClick={handleCancelTitleClick}>
-                        <img src={CloseIcon} alt=""/>
-                    </button>
                     <div className="board-form-pair board-form__name">
                         <label className="board-form__label" htmlFor="board-name">Board name</label>
                         <input value={boardTitle.name} onChange={(e) => handleBoardChange('name', e.target.value)}
@@ -68,10 +59,17 @@ export default function Title({name, description, setBoard}) {
                     </div>
                     <div className="board-form-pair board-form__description">
                         <label className="board-form__label" htmlFor="board-description">Board description</label>
-                        <input value={boardTitle.description} onChange={(e) => handleBoardChange('description', e.target.value)}
+                        <input value={boardTitle.description}
+                               onChange={(e) => handleBoardChange('description', e.target.value)}
                                className="board-form__input" type="text" id="board-description"/>
                     </div>
-                    <button className="btn board-form__save-btn" type="button" onClick={handleSaveClick}>Save</button>
+                    <div className='title-cta'>
+                        <button type="button" className="btn close-btn close-title-btn board-form__cancel-btn"
+                                onClick={handleCancelTitleClick}>Cancel
+                        </button>
+                        <button className="btn board-form__save-btn" type="button" onClick={handleSaveClick}>Save
+                        </button>
+                    </div>
                 </form>
             </div>}
             {!isBoardEdit && <div className="board__details">
@@ -80,6 +78,5 @@ export default function Title({name, description, setBoard}) {
             </div>}
             {!isBoardEdit &&
                 <button onClick={handleEditClick} className="btn edit-btn"><img src={EditPen} alt=""/></button>}
-        </header>
-    )
+        </header>)
 }
